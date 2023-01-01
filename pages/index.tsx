@@ -4,11 +4,10 @@ import { Header } from '../components/Header.components';
 
 const Home = () => {
   const [markdown, setMarkdown] = useState<string>('');
-  const [appUrl] = useState<string>(process.env.NEXT_PUBLIC_APP_URL || '');
 
   useEffect(() => {
     const fetchMarkdown = async () => {
-      const res = await fetch(`${appUrl}/docs/hello-world.md`);
+      const res = await fetch(`/docs/hello-world.md`);
       const markdownString = await res.text();
       setMarkdown(markdownString);
     };
