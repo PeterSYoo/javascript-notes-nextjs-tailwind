@@ -1,0 +1,27 @@
+.markdown h1 {
+  font-size: 2em;
+  color: blue;
+}
+
+.markdown p {
+  font-size: 1.2em;
+  color: red;
+}
+
+.markdown code {
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.85em;
+  margin: 0;
+  padding: 0.2em 0.4em;
+}
+
+.markdown pre {
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.85em;
+  margin: 0;
+  padding: 0.5em;
+}
