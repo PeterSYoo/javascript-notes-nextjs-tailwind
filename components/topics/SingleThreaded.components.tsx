@@ -46,7 +46,7 @@ export const SingleThreaded = () => {
       )}
       {isClicked ? (
         <>
-          <div className="bg-[#b3b5ba] pl-10 pr-8 pt-5 pb-8 rounded-xl transition-all duration-600 ease-in-out font-serif mb-10 mt-1">
+          <div className="bg-[#d6d9de] pl-10 pr-8 pt-5 pb-8 rounded-xl transition-all duration-600 ease-in-out font-serif mb-10 mt-1">
             <Markdown
               options={{
                 overrides: {
