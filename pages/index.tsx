@@ -23,13 +23,13 @@ const Home = () => {
           <HigherOrderFunctions />
           <CallbackFunctions />
           <SingleThreaded />
+          <BlockingVSNonBlocking />
           <CallStack />
           <SynchronousVSAsynchronous />
           <AsyncAwait />
           <Then />
           <Promises />
           <EventLoop />
-          <BlockingVSNonBlocking />
         </div>
       </div>
     </>

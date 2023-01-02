@@ -11,7 +11,7 @@ console.log('Hello, World!');
 window.greet(); // logs "Hello, World!"
 </Code>
 
-The global lexical environment is a feature that is created automatically when the global execution context is created. It is an object that stores variables and functions declared with `let`, `const`, or `var`, as well as function declarations. While all of these declarations are stored in the global lexical environment, only `var` and function declarations are also added as properties of the `window` object in web browsers. The global lexical environment is a property of the `window` object, but does not have a property name itself. It does not pollute the global scope, but is an additional object that holds variables and function declarations and is not directly accessible from JavaScript code.
+The global lexical environment is a feature that is created automatically when the global execution context is created. It is an object that stores variables and functions declared with `let`, `const`, or `var`, as well as `function` declarations. While all of these declarations are stored in the global lexical environment, only `var` and `function` declarations are also added as properties of the `window` object in web browsers. The global lexical environment is a property of the `window` object, but does not have a property name itself. It does not pollute the global scope, but is an additional object that holds variables and `function` declarations and is not directly accessible from JavaScript code.
 
   <Code language='javascript'>
   
@@ -24,4 +24,4 @@ console.log(window.y); // undefined
 console.log(window.z); // undefined
 </Code>
 
-The global lexical environment is a special area in memory that stores `let`, `const`, `var`, and function declarations from the global execution context. It is an object, but does not have a name and is not directly accessible from JavaScript code. Instead, it serves as a place to store declarations in the global scope and can be thought of as a "hidden" object that is not directly visible to the code.
+The global lexical environment is a special area in memory that stores `let`, `const`, `var`, and `function` declarations from the global execution context. It is an object, but does not have a name and is not directly accessible from JavaScript code. Instead, it serves as a place to store declarations in the global scope and can be thought of as a "hidden" object that is not directly visible to the code.
