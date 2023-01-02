@@ -4,14 +4,14 @@ import { Code } from '../Code.components';
 import { IoChevronForwardCircleSharp } from 'react-icons/io5';
 import { MdNotes } from 'react-icons/md';
 
-export const GlobalExecutionContext = () => {
+export const BlockingVSNonBlocking = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
   const [markdown, setMarkdown] = useState<string>('');
 
   useEffect(() => {
     const fetchMarkdown = async () => {
       try {
-        const res = await fetch(`/docs/globalExecutionContext.md`);
+        const res = await fetch(`/docs/blockingVSNonBlocking.md`);
         const markdownString = await res.text();
         setMarkdown(markdownString);
       } catch (error) {
@@ -30,7 +30,7 @@ export const GlobalExecutionContext = () => {
             className="flex items-center gap-2 cursor-pointer w-fit group"
           >
             <MdNotes className="mb-[1.5px]" />
-            <span className="text-sm">Global Execution Context</span>
+            <span className="text-sm">Blocking VS Non-Blocking</span>
             <IoChevronForwardCircleSharp className="cursor-pointer text-lg rotate-90 text-[#FFC58E] bg-[#2b2b2b] rounded-full group-hover:text-white ml-1" />
           </div>
         </>
@@ -40,7 +40,7 @@ export const GlobalExecutionContext = () => {
           className="flex items-center gap-2 cursor-pointer w-fit group"
         >
           <MdNotes className="mb-[1.5px]" />
-          <span className="text-sm">Global Execution Context</span>
+          <span className="text-sm">Blocking VS Non-Blocking</span>
           <IoChevronForwardCircleSharp className="cursor-pointer text-lg group-hover:text-white group-hover:text-lg group-hover:bg-black bg-black text-[#9b9ea6]  rounded-full ml-1" />
         </div>
       )}

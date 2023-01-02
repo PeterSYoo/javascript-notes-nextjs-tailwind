@@ -1,5 +1,6 @@
 import { Montserrat } from '@next/font/google';
 import Head from 'next/head';
+import { Footer } from './Footer.components';
 import { Header } from './Header.components';
 
 const montserrat = Montserrat({
@@ -15,9 +16,10 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
         <meta name="description" content="Peter's JavaScript Notes" />
       </Head>
       <body>
-        <main className="min-w-screen flex min-h-screen flex-col bg-[#BEC1CA] font-montserrat">
+        <main className="min-w-screen flex min-h-screen flex-col bg-[#9b9ea6] font-montserrat">
           <Header />
           {children}
+          <Footer />
         </main>
       </body>
     </html>

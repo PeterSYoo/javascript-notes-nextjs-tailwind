@@ -1,0 +1,49 @@
+.markdown h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.markdown h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.markdown h3 {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.markdown p {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.markdown li {
+  list-style-type: disc;
+  margin-bottom: 0.5em;
+  font-size: 0.9em;
+}
+
+.markdown li li {
+  list-style-type: circle;
+  margin-left: 1em;
+  font-size: 0.9em;
+}
+
+.markdown code {
+  background-color: #2B2B2b;
+  color: rgb(255, 197, 142);
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.9em;
+  margin: 0 0.2em 0 0;
+  padding: 0.1em 0.3em 0em 0.3em;
+}
+
+.markdown pre {
+  background-color: #2B2B2b;
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.85em;
+  border-radius: 0.5em
+}
