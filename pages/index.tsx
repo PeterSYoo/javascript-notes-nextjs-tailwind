@@ -30,9 +30,9 @@ const Home = () => {
           <HigherOrderFunctions />
           <CallbackFunctions />
           <SynchronousVSAsynchronous />
+          <Promises />
           <AsyncAwait />
           <Then />
-          <Promises />
           <EventLoop />
         </div>
       </div>

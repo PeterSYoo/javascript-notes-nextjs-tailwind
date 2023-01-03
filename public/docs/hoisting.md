@@ -41,7 +41,3 @@ This means that the declarations of `x` and `y` are moved to the top of their re
 It's important to note that hoisting only affects declarations, not assignments. In the example above, the assignments of `5` to `x` and `10` to `y` still occur at the locations where they are written in the code.
 <br/><br/>
 Hoisting was implemented in JavaScript to make it easier to write code. By moving declarations to the top of the scope, it allows developers to write code in a more logical order, without having to worry about the order of declarations. While hoisting is a feature of JavaScript that can make it easier to write code, it can also lead to some unexpected behavior if not used carefully. It is generally considered a good practice to write your code in the order of declarations rather than relying on hoisting. This will make your code easier to understand and debug, and will help ensure that your code behaves as expected.
-<br/><br/>
-By declaring all variables at the top of their respective scopes, you can avoid any confusion or unexpected behavior caused by hoisting. This will make it clear to anyone reading your code which variables are being used and where they are declared, which can be especially important in larger codebases.
-<br/><br/>
-Of course, there may be times when you want to take advantage of hoisting to simplify your code or make it easier to write. In these cases, it's important to be aware of how hoisting works and to use it carefully to avoid any unexpected behavior.
