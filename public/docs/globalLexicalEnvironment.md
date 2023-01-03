@@ -5,7 +5,7 @@ The global lexical environment is a feature of the `window` object in web browse
   <Code language='javascript'>
 
 function greet() {
-console.log('Hello, World!');
+&nbsp;&nbsp;console.log('Hello, World!');
 }
 
 window.greet(); // logs "Hello, World!"

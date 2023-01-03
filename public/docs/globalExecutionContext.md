@@ -5,7 +5,7 @@ The global execution context is the default execution context that is created wh
 <Code language='javascript'>
 
 function greet() {
-console.log('Hello, World!');
+&nbsp;&nbsp;console.log('Hello, World!');
 }
 
 window.greet(); // logs "Hello, World!"
