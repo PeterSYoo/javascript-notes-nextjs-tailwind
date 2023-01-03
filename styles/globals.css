@@ -7,9 +7,27 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #d0d1d6;
+  background-color: #ced0d5;
 }
 
 body::-webkit-scrollbar-track {
   background-color: #9b9ea6;
+}
+
+@layer components {
+  .isClicked-true {
+    @apply flex items-center gap-2 cursor-pointer w-full hover:bg-[#f0f2f7] py-2 hover:rounded-lg px-2;
+  }
+  .isClicked-false {
+    @apply flex items-center gap-2 cursor-pointer w-full hover:bg-[#f0f2f7] py-2 hover:rounded-lg px-2;
+  }
+  .chevron-right {
+    @apply cursor-pointer text-lg group-hover:text-white group-hover:text-lg group-hover:bg-black bg-black text-[#ced0d5] rounded-full ml-1;
+  }
+  .chevron-down {
+    @apply cursor-pointer text-lg rotate-90 text-[#FFC58E] bg-[#2b2b2b] rounded-full group-hover:text-white ml-1;
+  }
+  .markdown-container {
+    @apply bg-[#f0f2f7] pl-10 pr-8 pt-5 pb-8 rounded-xl font-serif mb-10 mt-1 text-lg;
+  }
 }
