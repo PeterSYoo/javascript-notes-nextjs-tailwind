@@ -1,6 +1,9 @@
+_"In JavaScript, the global execution context is the default execution context that is created when the JavaScript engine starts, and it provides the context for all code that is not inside a function."_
+
+<br/>
 The global execution context is a virtual environment in which JavaScript code is executed. When a JavaScript program starts running, the global execution context is created and provides a space for declarations, such as variables and functions, to be made. These declarations are then available to be used throughout the entire program. The global execution context is not a tangible object, but rather an abstract concept that represents the space in which code is executed.
 <br/><br/>
-The global execution context is the default execution context that is created when a JavaScript program starts running. There is only one global execution context, and declarations made in this context are available throughout the entire program. Variables declared with the `var` keyword are stored in the global lexical environment and are also added as properties of the `window` object in web browsers. Functions declared with the `function` keyword are also stored in the global lexical environment and are added as methods of the `window` object.
+There is only one global execution context, and declarations made in this context are available throughout the entire program. Variables declared with the `var` keyword are stored in the global lexical environment and are also added as properties of the `window` object in web browsers. Functions declared with the `function` keyword are also stored in the global lexical environment and are added as methods of the `window` object.
 
 <Code language='javascript'>
 

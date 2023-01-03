@@ -1,0 +1,1 @@
+_"In JavaScript, the .then() method is used to specify what action should be taken when a promise is fulfilled, either by returning a value or throwing an error. It is usually called on the returned value of a promise's .resolve() method."_

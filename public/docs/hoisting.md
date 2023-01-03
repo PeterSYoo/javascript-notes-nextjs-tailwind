@@ -1,3 +1,6 @@
+_"In JavaScript, hoisting is the behavior of moving declarations to the top of the current scope, which means that declarations of variables and functions can be used before they are actually defined in the code."_
+
+<br/>
 During the global execution context, hoisting occurs before any code is executed. This means that all declarations of variables and functions are automatically moved to the top of the global scope, regardless of where they are actually defined in the code.
 <br/><br/>
 For example, consider the following code:
@@ -42,5 +45,3 @@ Hoisting was implemented in JavaScript to make it easier to write code. By movin
 By declaring all variables at the top of their respective scopes, you can avoid any confusion or unexpected behavior caused by hoisting. This will make it clear to anyone reading your code which variables are being used and where they are declared, which can be especially important in larger codebases.
 <br/><br/>
 Of course, there may be times when you want to take advantage of hoisting to simplify your code or make it easier to write. In these cases, it's important to be aware of how hoisting works and to use it carefully to avoid any unexpected behavior.
-<br/><br/>
-1 example of what happens during JavaScript development is that you might use an editor like VS Code. If you are using a framework like NextJS, NextJS will automatically transpile, parse, and execute the code for you. It uses tools like Babel and Webpack to transpile and parse your code. It will also handle execution of your code, when a user requests a page in your NextJS app the framework will execute the code needed to render the page on the server, and send the resulting HTML to the browser. This allows your app to be server-rendered.

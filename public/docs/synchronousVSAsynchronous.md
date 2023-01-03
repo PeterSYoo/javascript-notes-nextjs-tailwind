@@ -1,0 +1,1 @@
+_"In JavaScript, synchronous code is executed in a blocking manner, meaning that the program will stop or block the execution of subsequent code until the synchronous code has completed, while asynchronous code is executed in a non-blocking manner, allowing other code to be executed while waiting for the asynchronous code to finish."_
