@@ -10,6 +10,7 @@ import { HigherOrderFunctions } from '../components/topics/HigherOrderFunctions.
 import { Hoisting } from '../components/topics/Hoisting.components';
 import { LocalLexicalEnvironment } from '../components/topics/LocalLexicalEnvironment.components';
 import { Promises } from '../components/topics/Promises.components';
+import { ScopeChain } from '../components/topics/ScopeChain.components';
 import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
 import { Then } from '../components/topics/Then.components';
@@ -26,6 +27,7 @@ const Home = () => {
           <GlobalExecutionContext />
           <GlobalLexicalEnvironment />
           <LocalLexicalEnvironment />
+          <ScopeChain />
           <Hoisting />
           <HigherOrderFunctions />
           <CallbackFunctions />
