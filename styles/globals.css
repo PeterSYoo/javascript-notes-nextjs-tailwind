@@ -16,10 +16,10 @@ body::-webkit-scrollbar-track {
 
 @layer components {
   .isClicked-true {
-    @apply flex items-center gap-2 cursor-pointer w-full hover:bg-[#f0f2f7] py-2 hover:rounded-lg px-2;
+    @apply flex items-center gap-2 cursor-pointer w-full hover:bg-[#f0f2f7] py-2 hover:rounded-lg px-2 justify-between;
   }
   .isClicked-false {
-    @apply flex items-center gap-2 cursor-pointer w-full hover:bg-[#f0f2f7] py-2 hover:rounded-lg px-2;
+    @apply flex items-center gap-2 cursor-pointer w-full hover:bg-[#f0f2f7] py-2 hover:rounded-lg px-2 justify-between;
   }
   .chevron-right {
     @apply cursor-pointer text-lg group-hover:text-white group-hover:text-lg group-hover:bg-black bg-black text-[#ced0d5] rounded-full ml-1;
