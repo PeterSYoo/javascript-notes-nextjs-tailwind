@@ -16,7 +16,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
         <meta name="description" content="Peter's JavaScript Notes" />
       </Head>
       <body>
-        <main className="min-w-screen flex min-h-screen flex-col bg-[#9b9ea6] font-montserrat">
+        <main className="min-w-screen flex min-h-screen flex-col bg-[#ced0d5] font-montserrat">
           <Header />
           {children}
           <Footer />
