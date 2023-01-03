@@ -18,11 +18,11 @@ export const Code = ({ children, language }: any) => {
     <div className="relative mt-1 mb-5">
       <CopyToClipboard text={children} onCopy={() => setCopied(true)}>
         {copied ? (
-          <button className="absolute top-3 right-4 z-20 text-white transition-all duration-600 ease-in-out text-lg">
+          <button className="absolute top-2.5 right-4 z-20 text-white transition-all duration-600 ease-in-out text-lg">
             <RxClipboard />
           </button>
         ) : (
-          <button className="absolute top-3 right-4 z-20 text-[#FFC58E] hover:text-white transition-all duration-600 ease-in-out text-lg">
+          <button className="absolute top-2.5 right-4 z-20 text-[#FFC58E] hover:text-white transition-all duration-600 ease-in-out text-lg">
             <RxCopy />
           </button>
         )}
