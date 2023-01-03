@@ -4,14 +4,14 @@ import { Code } from '../Code.components';
 import { IoChevronForwardCircleSharp } from 'react-icons/io5';
 import { MdNotes } from 'react-icons/md';
 
-export const BlockingVSNonBlocking = () => {
+export const CompilationProcess = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
   const [markdown, setMarkdown] = useState<string>('');
 
   useEffect(() => {
     const fetchMarkdown = async () => {
       try {
-        const res = await fetch(`/docs/blockingVSNonBlocking.md`);
+        const res = await fetch(`/docs/compilationProcess.md`);
         const markdownString = await res.text();
         setMarkdown(markdownString);
       } catch (error) {
@@ -30,7 +30,7 @@ export const BlockingVSNonBlocking = () => {
             className="isClicked-true"
           >
             <MdNotes className="mb-[1.5px]" />
-            <span className="text-sm">Blocking VS Non-Blocking</span>
+            <span className="text-sm">Compilation Process</span>
             <IoChevronForwardCircleSharp className="chevron-down" />
           </div>
         </>
@@ -40,7 +40,7 @@ export const BlockingVSNonBlocking = () => {
           className="isClicked-false"
         >
           <MdNotes className="mb-[1.5px]" />
-          <span className="text-sm">Blocking VS Non-Blocking</span>
+          <span className="text-sm">Compilation Process</span>
           <IoChevronForwardCircleSharp className="chevron-right" />
         </div>
       )}

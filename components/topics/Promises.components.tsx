@@ -27,26 +27,26 @@ export const Promises = () => {
         <>
           <div
             onClick={() => setIsClicked(!isClicked)}
-            className="flex items-center gap-2 cursor-pointer w-fit group"
+            className="isClicked-true"
           >
             <MdNotes className="mb-[1.5px]" />
             <span className="text-sm">Promises</span>
-            <IoChevronForwardCircleSharp className="cursor-pointer text-lg rotate-90 transition-all duration-600 ease-in-out text-[#FFC58E] bg-[#2b2b2b] rounded-full group-hover:text-white ml-1" />
+            <IoChevronForwardCircleSharp className="chevron-down" />
           </div>
         </>
       ) : (
         <div
           onClick={() => setIsClicked(!isClicked)}
-          className="flex items-center gap-2 cursor-pointer w-fit group"
+          className="isClicked-false"
         >
           <MdNotes className="mb-[1.5px]" />
           <span className="text-sm">Promises</span>
-          <IoChevronForwardCircleSharp className="cursor-pointer text-lg group-hover:text-white group-hover:text-lg group-hover:bg-black bg-black text-[#9b9ea6]  rounded-full ml-1" />
+          <IoChevronForwardCircleSharp className="chevron-right" />
         </div>
       )}
       {isClicked ? (
         <>
-          <div className="bg-[#d6d9de] pl-10 pr-8 pt-5 pb-8 rounded-xl transition-all duration-600 ease-in-out font-serif mb-10 mt-1">
+          <div className="markdown-container">
             <Markdown
               options={{
                 overrides: {
