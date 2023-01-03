@@ -4,7 +4,10 @@ _"In JavaScript, the call stack is a data structure that stores the execution co
 The call stack is a data structure in JavaScript that is used to keep track of the execution of function calls. It is a Last In, First Out (LIFO) stack that stores information about the active functions that are being executed in a program.
 
 <br/>
-In a single-threaded language like JavaScript, the call stack plays a crucial role in the execution of blocking and non-blocking code. When a function is called, it is added to the top of the call stack and is executed. If the function calls other functions, those functions are also added to the top of the stack and are executed in turn. When a function finishes executing, it is removed from the top of the stack, and the next function on the stack is executed.
+In a single-threaded language like JavaScript, the call stack plays a crucial role in the execution of blocking and non-blocking code.
+
+<br/>
+When a function is called, an execution context is created for the function and is added to the top of the call stack. This execution context contains information about the function, including its arguments and local variables, as well as a reference to the execution context of the calling function. When the function returns, its execution context is removed from the top of the call stack, and the next execution context in the stack becomes the current execution context. If the function calls other functions, those functions are also added to the top of the stack and are executed in turn. When a function finishes executing, it is removed from the top of the stack, and the next function on the stack is executed. So, in a way, you could say that the execution context is what gets sent to the call stack.
 
 <br/>
 This process of adding and removing functions from the stack can have an impact on the performance of a program, particularly in the case of blocking code. If a function takes a long time to execute, it will block the execution of other functions and will remain on the top of the stack until it finishes. This can cause the call stack to grow larger, which can lead to memory issues and can impact the overall performance of the program.
