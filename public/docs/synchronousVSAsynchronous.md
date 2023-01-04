@@ -1,1 +1,76 @@
 _"In JavaScript, synchronous code is executed in a blocking manner, meaning that the program will stop or block the execution of subsequent code until the synchronous code has completed, while asynchronous code is executed in a non-blocking manner, allowing other code to be executed while waiting for the asynchronous code to finish."_
+
+<br />
+In JavaScript, when we talk about synchronous and asynchronous code, we are generally referring to the way that the code is executed in relation to the rest of the program. Synchronous code is executed in a "blocking" manner, meaning that the program will pause execution of any further code until the synchronous code has completed execution. Asynchronous code, on the other hand, is executed in a non-blocking manner, meaning that the program will not wait for the asynchronous code to finish before moving on to the next block of code.
+
+<br />
+Here is an example of synchronous code in JavaScript:
+
+<Code language='javascript'>
+
+console.log('Start');
+
+const result = doSynchronousTask();
+console.log(result);
+
+console.log('End');
+</Code>
+
+In this example, the program will first log "Start" to the console. It will then execute the `doSynchronousTask()` function, which might take some time to complete. The program will wait for the function to finish before logging the result to the console and then logging "End" to the console.
+
+<br />
+Here is an example of asynchronous code in JavaScript:
+
+<Code language='javascript'>
+
+console.log('Start');
+
+function doAsynchronousTask() {
+&nbsp;return new Promise((resolve, reject) => {
+&nbsp;&nbsp;// Perform some async operation, like making an HTTP request
+&nbsp;&nbsp;makeHttpRequest((err, result) => {
+&nbsp;&nbsp;&nbsp;if (err) {
+&nbsp;&nbsp;&nbsp;&nbsp;reject(err);
+&nbsp;&nbsp;&nbsp;} else {
+&nbsp;&nbsp;&nbsp;&nbsp;resolve(result);
+&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;});
+&nbsp;});
+}
+
+doAsynchronousTask()
+&nbsp;.then((result) => {
+&nbsp;&nbsp;console.log(result);
+&nbsp;})
+&nbsp;.catch((err) => {
+&nbsp;&nbsp;console.error(err);
+&nbsp;});
+
+console.log('End');
+</Code>
+
+In this code example, the `doAsynchronousTask()` function is an async function that returns a promise that represents an asynchronous operation. The asynchronous operation is triggered by calling the `makeHttpRequest()` function, which makes an HTTP request and takes a callback function as an argument.
+
+<br />
+The `doAsynchronousTask()` function returns a promise that is resolved with the result of the HTTP request if the request is successful, or rejected with an error if the request fails. The caller of the function can use the `then()` method of the returned promise to specify a callback that should be called when the async operation is complete, and the `catch()` method to specify a callback that should be called if the async operation fails.
+
+<br />
+The rest of the code is executed in the following order:
+
+<br />
+- The program logs "Start" to the console.
+- The `doAsynchronousTask()` function is called. This triggers the asynchronous HTTP request, but the program does not wait for the request to complete before moving on to the next line of code.
+- The program logs "End" to the console.
+- At some later point in time, the HTTP request completes and the callback function passed to the `then()` method of the returned promise is called with the result of the request. The program logs the result to the console.
+
+<br />
+The `doAsynchronousTask()` function is considered non-blocking because the program does not have to wait for the async operation (the HTTP request) to complete before moving on to the next line of code.
+
+<br />
+When a program executes a blocking operation, it must wait for the operation to complete before moving on to the next line of code. This can cause the program to appear "frozen" or unresponsive if the blocking operation takes a long time to complete.
+
+<br />
+On the other hand, when a program executes a non-blocking operation, it does not have to wait for the operation to complete before moving on to the next line of code. This can make the program more responsive and efficient, because it can continue to do other work while the non-blocking operation is being performed in the background.
+
+<br />
+In the case of the `doAsynchronousTask()` function, the program makes an HTTP request and then logs "End" to the console, while the HTTP request is being performed in the background. When the HTTP request completes, the program logs the result to the console. This allows the program to continue executing and responding to user input while the HTTP request is being performed.
