@@ -29,8 +29,10 @@ export const SynchronousVSAsynchronous = () => {
             onClick={() => setIsClicked(!isClicked)}
             className="isClicked-true"
           >
-            <MdNotes className="mb-[1.5px]" />
-            <span className="text-sm">Synchronous VS Asynchronous</span>
+            <div className="flex items-center gap-5">
+              <MdNotes className="mb-[1.5px]" />
+              <span className="text-sm">Synchronous VS Asynchronous</span>
+            </div>
             <IoChevronForwardCircleSharp className="chevron-down" />
           </div>
         </>
@@ -39,8 +41,10 @@ export const SynchronousVSAsynchronous = () => {
           onClick={() => setIsClicked(!isClicked)}
           className="isClicked-false"
         >
-          <MdNotes className="mb-[1.5px]" />
-          <span className="text-sm">Synchronous VS Asynchronous</span>
+          <div className="flex items-center gap-5">
+            <MdNotes className="mb-[1.5px]" />
+            <span className="text-sm">Synchronous VS Asynchronous</span>
+          </div>
           <IoChevronForwardCircleSharp className="chevron-right" />
         </div>
       )}
