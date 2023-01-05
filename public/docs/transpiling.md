@@ -23,7 +23,7 @@ In the same way, transpiling in JavaScript involves converting code written in o
 <Code language='javascript'>
 
 function greet(name: string) {
-&nbsp;console.log(`Hello, ${name}!`);
+&nbsp;console.log('Hello' + name + '!');
 }
 </Code>
 
@@ -32,7 +32,7 @@ To convert this code into the target language of JavaScript, you can use a trans
 <Code language='javascript'>
 
 function greet(name) {
-&nbsp;console.log(`Hello, ${name}!`);
+&nbsp;console.log('Hello' + name + '!');
 }
 </Code>
 
