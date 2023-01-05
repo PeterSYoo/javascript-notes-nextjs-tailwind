@@ -1,10 +1,16 @@
 _"In JavaScript, prototypes are objects that are used as templates for creating new objects, and they provide a way to share properties and behaviors among objects."_
 
 <br/>
-Prototypes in JavaScript can be thought of as a set of instructions for building a model or prototype of a product. When a company wants to create a new product, they often start by building a model or prototype of the product to test and refine the design. The prototype is a working model that represents the final product, but it may be made of different materials or be less refined than the final product.
+Imagine that you are a fashion designer creating a new clothing line. You start by creating a prototype garment, which serves as a sample or model for the rest of the line. The prototype garment has all of the basic features and characteristics that you want to include in the final garments, but it may not be fully finished or polished.
 
 <br/>
-In the same way, prototypes in JavaScript are used as templates for creating new objects. A prototype is an object that represents the final object that you want to create, but it may not have all of the properties or behaviors of the final object. You can use the prototype as a starting point to create new objects that inherit the properties and behaviors of the prototype.
+In the same way, a prototype in JavaScript is a basic version of an object that serves as a model for other objects. It has all of the basic features and characteristics that you want to include in the final objects, but it may not be fully fleshed out or fully functional.
+
+<br/>
+Just as a prototype garment serves as a starting point for creating the final garments in a clothing line, a prototype in JavaScript serves as a starting point for creating other objects. And just as a fashion designer can make changes and improvements to the prototype garment as needed, you can modify and extend a prototype in JavaScript to create the final version of an object.
+
+<br/>
+Overall, prototypes in JavaScript allow you to create objects that have a shared set of characteristics and behaviors, in a way that is similar to a fashion designer creating a prototype garment as a model for a clothing line.
 
 <br/>
 For example, consider a "Person" prototype that represents people with properties like name, age, and gender, and behaviors like speaking and walking. You can create a new "Person" object like this:

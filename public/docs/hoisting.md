@@ -1,6 +1,15 @@
 _"In JavaScript, hoisting is the behavior of moving declarations to the top of the current scope, which means that declarations of variables and functions can be used before they are actually defined in the code."_
 
 <br/>
+Imagine that hoisting is like a stagehand setting up props and scenery before a play. The stagehand brings all of the necessary elements onto the stage and arranges them in the appropriate places before the play begins.
+
+<br/>
+In the same way, hoisting in JavaScript involves bringing variables and functions to the top of their respective scope and making them available before the code is executed. Just as the stagehand makes sure that everything is in place and ready to go before the play begins, hoisting ensures that variables and functions are available and ready to be used when the code is executed.
+
+<br/>
+However, just as the stagehand does not actually perform any actions during the play (that is the job of the actors), variables and functions that are hoisted are not actually executed until the code reaches their respective declarations. Hoisting simply makes them available and ready to be used when the time comes.
+
+<br/>
 During the global execution context, hoisting occurs before any code is executed. This means that all declarations of variables and functions are automatically moved to the top of the global scope, regardless of where they are actually defined in the code.
 <br/><br/>
 For example, consider the following code:

@@ -1,10 +1,16 @@
 _"In JavaScript, async/await is a language feature that enables the use of asynchronous, non-blocking code by allowing the programmer to write asynchronous code using a synchronous-looking syntax."_
 
 <br/>
-Async/await in JavaScript can be thought of as ordering food at a restaurant and waiting for it to be prepared and delivered. When you place an order at a restaurant, you typically have to wait for your food to be prepared by the chefs and brought to your table. While you are waiting, you can continue to do other things, like chat with friends or browse your phone.
+Imagine that you are a customer at a store, and you want to purchase an item that is currently out of stock. The store clerk tells you that the item will be restocked the next day, and offers to hold the item for you until it becomes available.
 
 <br/>
-Using async/await in JavaScript is similar to this process. When you make an async function call, you are "ordering" some task to be completed. The function call returns a "promise" that the task will be completed, just like the restaurant gives you a receipt when you place an order. You can use the "await" keyword to "wait" for the task to be completed, just like you wait for your food to be delivered to your table. While you are waiting, the program can continue to do other things, just like you can continue to do other things while you wait for your food. When the task is complete, the async function will "resolve" the promise, just like the restaurant delivers your food to your table.
+In the same way, the async/await keywords in JavaScript allow you to "hold" the execution of a program until a certain asynchronous event (such as a network request) has completed. When you use the async keyword to define a function, it tells the program to "hold" the execution of that function until the asynchronous event has completed. Then, you can use the await keyword to "wait" for the asynchronous event to finish before continuing with the rest of the function.
+
+<br/>
+Just as the store clerk holds the item for you until it becomes available, the async/await keywords allow you to pause the execution of a program until an asynchronous event has completed. And just as you can come back to the store the next day to pick up the item that you have held, you can use the async/await keywords to resume the execution of a program once the asynchronous event has finished.
+
+<br/>
+Overall, the async/await keywords in JavaScript allow you to pause the execution of a program and wait for an asynchronous event to complete, in a way that is similar to holding an item at a store until it becomes available. This can make it easier to write asynchronous code in a way that is more synchronous and easier to read and understand.
 
 <br/>
 `async`/`await` is a language feature introduced in ECMAScript 2017 that allows you to write asynchronous code in a way that looks synchronous.

@@ -1,6 +1,15 @@
 _"In JavaScript, a local lexical environment is created whenever a function is called, and it provides the context for the code inside the function, including the function's local variables and parameters."_
 
 <br/>
+Imagine that a local lexical environment is like a small reading room within a library. The reading room is a separate, enclosed space within the larger library, and it contains a selection of books that are specifically relevant to the task at hand.
+
+<br/>
+In the same way, a local lexical environment in JavaScript is a separate, enclosed space within the global lexical environment. It contains a selection of variables and functions that are specifically relevant to the code being executed within that local environment.
+
+<br/>
+Just as a reading room provides a focused space for reading and studying a specific topic, a local lexical environment provides a focused space for accessing and using a specific set of variables and functions within a JavaScript program. And just as a reading room is nested within the larger library and can access the books stored in the library, a local lexical environment is nested within the global lexical environment and can access the variables and functions stored there.
+
+<br/>
 The global lexical environment is represented by the global object, which is a special object that provides the global namespace for the JavaScript code that is executed in a particular context (e.g., a web page or a Node.js script).
 
 <br/>

@@ -1,6 +1,15 @@
 _"The scope chain is a series of lexical environments that are linked together and is used to determine the accessibility of variables and functions in JavaScript by allowing the JavaScript engine to search for variables and functions in the current and parent lexical environments."_
 
 <br/>
+Imagine that the scope chain is like a ladder. The ladder has a series of rungs, each representing a level of the scope chain. At the bottom of the ladder is the global scope, which is the foundation upon which all other scopes are built. As you climb higher up the ladder, you reach local scopes that are nested within the global scope.
+
+<br/>
+Just as a ladder provides a way to access higher levels of a structure (e.g. a building), the scope chain provides a way for a JavaScript program to access variables and functions that are stored at higher levels of the lexical environment. When you are at the top of the ladder, you can look down and see all of the rungs below you, representing the complete scope chain.
+
+<br/>
+As you move from one rung to the next on the ladder, you are essentially moving from one level of the scope chain to the next. And just as a ladder provides a structure for climbing up and down, the scope chain provides a structure for accessing variables and functions within a JavaScript program.
+
+<br/>
 The scope chain is a series of lexical environments that are linked together and is used to determine the accessibility of variables and functions in JavaScript. When you access a variable or function in your code, the JavaScript engine looks for the variable or function in the current lexical environment. If it is not found, the engine looks for it in the next lexical environment in the scope chain, and so on.
 
 <br/>

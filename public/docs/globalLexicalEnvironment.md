@@ -1,6 +1,15 @@
 _"The global lexical environment is the outermost environment in which code is executed and defines the context for code that is not inside any function, also known as the global scope."_
 
 <br/>
+Imagine that the global lexical environment is like a library. The library contains a collection of books, each representing a variable or function in the JavaScript program. Just as a library provides a place for books to be stored and organized, the global lexical environment provides a place for variables and functions to be stored and organized within the context of a JavaScript program.
+
+<br/>
+Just as a library has various sections for different types of books (e.g. fiction, non-fiction, children's books), the global lexical environment has different "sections" or "scopes" for different types of variables and functions (e.g. global variables, local variables). And just as a library has a system for organizing and finding books (e.g. using call numbers), the global lexical environment has a system for organizing and accessing variables and functions (e.g. using the scope chain).
+
+<br/>
+Overall, the global lexical environment can be thought of as a central repository for all of the variables and functions in a JavaScript program, providing a way to store, organize, and access them as needed.
+
+<br/>
 The global lexical environment is a real object that is created automatically when the global execution context is created. It stores declarations from the global execution context, such as variables and function declarations. The global lexical environment is an object that is a property of the window object in web browsers, but it cannot be directly accessed from JavaScript code. It serves as a place to store declarations in the global scope and is not an abstract concept like the global execution context.
 <br/><br/>
 The global lexical environment is a feature of the `window` object in web browsers that stores variables and functions that are in the global execution context. These variables and functions are also added as properties of the `window` object, with the same names as in the global lexical environment. For example, if there is a function called `greet` in the global execution context, it will also be added as a property of the `window` object and a property of the global lexical environment object will be created that points to the `greet` function on the `window` object.
