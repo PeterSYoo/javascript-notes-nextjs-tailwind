@@ -4,14 +4,14 @@ import { Code } from '../Code.components';
 import { IoChevronForwardCircleSharp } from 'react-icons/io5';
 import { MdNotes } from 'react-icons/md';
 
-export const ImperativeProgramming = () => {
+export const Parsing = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
   const [markdown, setMarkdown] = useState<string>('');
 
   useEffect(() => {
     const fetchMarkdown = async () => {
       try {
-        const res = await fetch(`/docs/imperativeProgramming.md`);
+        const res = await fetch(`/docs/parsing.md`);
         const markdownString = await res.text();
         setMarkdown(markdownString);
       } catch (error) {
@@ -31,7 +31,7 @@ export const ImperativeProgramming = () => {
           >
             <div className="flex items-center gap-5">
               <MdNotes className="mb-[1.5px]" />
-              <span className="text-sm">Imperative Programming</span>
+              <span className="text-sm">Parsing</span>
             </div>
             <IoChevronForwardCircleSharp className="chevron-down" />
           </div>
@@ -43,7 +43,7 @@ export const ImperativeProgramming = () => {
         >
           <div className="flex items-center gap-5">
             <MdNotes className="mb-[1.5px]" />
-            <span className="text-sm">Imperative Programming</span>
+            <span className="text-sm">Parsing</span>
           </div>
           <IoChevronForwardCircleSharp className="chevron-right" />
         </div>
