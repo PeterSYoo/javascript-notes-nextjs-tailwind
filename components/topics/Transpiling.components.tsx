@@ -11,7 +11,7 @@ export const Transpiling = () => {
   useEffect(() => {
     const fetchMarkdown = async () => {
       try {
-        const res = await fetch(`/docs/Transpiling.md`);
+        const res = await fetch(`/docs/transpiling.md`);
         const markdownString = await res.text();
         setMarkdown(markdownString);
       } catch (error) {
