@@ -4,6 +4,7 @@ import { Bundling } from '../components/topics/Bundling.components';
 import { CallbackFunctions } from '../components/topics/CallbackFunctions.components';
 import { CallStack } from '../components/topics/CallStack.components';
 import { CompilationProcess } from '../components/topics/CompilationProcess.components';
+import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
 import { EventDrivenProgramming } from '../components/topics/EventDrivenProgramming.components';
 import { EventLoop } from '../components/topics/EventLoop.components';
 import { Events } from '../components/topics/Events.components';
@@ -70,6 +71,7 @@ const Home = () => {
               <Events />
             </div>
             <ImperativeProgramming />
+            <DeclarativeProgramming />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
