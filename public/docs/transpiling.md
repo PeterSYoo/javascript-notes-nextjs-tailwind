@@ -1,0 +1,4 @@
+_"Transpiling in JavaScript refers to the process of converting code written in one programming language into another programming language that has a similar level of abstraction, with the goal of making the code executable in a specific environment (such as a web browser)."_
+
+<br/>
+Transpiling JavaScript code for a web browser is like translating a recipe written in French into English. Just as a recipe written in French might not be immediately understandable to someone who only speaks English, JavaScript code written in a newer version of the language might not be compatible with older web browsers that only understand older versions of the language. Just as a translator converts the recipe from French into English so that an English speaker can understand it, a transpiler converts newer JavaScript code into an older version of the language that can be understood and executed by the target web browser.

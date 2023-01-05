@@ -1,0 +1,4 @@
+_"Parsing in JavaScript refers to the process of analyzing a string of code and breaking it down into individual syntactic components, or tokens, that can be meaningfully interpreted by the browser."_
+
+<br/>
+Parsing JavaScript code for a web browser is like breaking down a recipe written in English into its individual ingredients and instructions. Just as a recipe written in English might list the ingredients and instructions for a dish in a single long string of text, JavaScript code consists of a series of tokens (such as variables, functions, and control structures) that are written in a specific syntax. Just as a chef reads through a recipe and breaks it down into individual ingredients and steps in order to understand what to do, the browser reads through the JavaScript code and breaks it down into individual tokens in order to understand what to do.

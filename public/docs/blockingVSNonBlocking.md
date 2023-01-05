@@ -1,6 +1,12 @@
 _"Blocking refers to code that stops or blocks the execution of subsequent code, while non-blocking code allows other code to be executed while waiting for the non-blocking code to finish."_
 
 <br/>
+Blocking in JavaScript can be thought of as a line at a busy restaurant. When you arrive at the restaurant, you have to wait in line to be seated and served. While you are waiting in line, you are blocked from doing anything else, like ordering food from a different restaurant or using the restroom. You can only do these things after you have been seated and served at the current restaurant.
+
+<br/>
+On the other hand, non-blocking in JavaScript can be thought of as ordering food from a restaurant online. When you place an order online, you can continue to do other things while you wait for your food to be delivered. You are not blocked or held up by the process of ordering food. When the food arrives, you are notified and can then stop what you are doing to enjoy your meal.
+
+<br/>
 In JavaScript, the term "blocking" refers to code that stops or blocks the execution of further code until it has finished running. This can be contrasted with "non-blocking" code, which allows other code to run concurrently and does not block the execution of subsequent code.
 
 <br/>

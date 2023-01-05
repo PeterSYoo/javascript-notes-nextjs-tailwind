@@ -1,6 +1,9 @@
 _"JavaScript is single threaded, meaning it can only execute one task at a time in a sequential order."_
 
 <br/>
+ Imagine a customer service representative at a front desk. The representative can only deal with one customer at a time, just as a single threaded JavaScript program can only execute one task at a time. The customers (or tasks) are added to a queue, and the representative (or JavaScript program) works through them one by one. Just as the representative can only focus on one customer at a time, the single threaded JavaScript program can only execute one task at a time.
+
+<br/>
 JavaScript is a single-threaded programming language, which means that it can only execute one task at a time. This is in contrast to multi-threaded programming languages, which can execute multiple tasks concurrently.
 
 <br/>

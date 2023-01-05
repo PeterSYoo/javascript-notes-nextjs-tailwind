@@ -1,6 +1,12 @@
 _"In JavaScript, synchronous code is executed in a blocking manner, meaning that the program will stop or block the execution of subsequent code until the synchronous code has completed, while asynchronous code is executed in a non-blocking manner, allowing other code to be executed while waiting for the asynchronous code to finish."_
 
 <br />
+Synchronous programming in JavaScript can be thought of as a group of friends having a conversation in person. When one person speaks, the other friends have to stop what they are doing and listen until the speaker is finished. They cannot interrupt the speaker or have a separate conversation until the speaker is done speaking.
+
+<br />
+On the other hand, asynchronous programming in JavaScript can be thought of as a group of friends having a conversation over a messaging app. While one person is typing and sending messages, the other friends can continue to do other things and have separate conversations. They are not blocked or held up by the process of one person sending a message. When a new message arrives, the friends are notified and can stop what they are doing to respond.
+
+<br />
 In JavaScript, when we talk about synchronous and asynchronous code, we are generally referring to the way that the code is executed in relation to the rest of the program. Synchronous code is executed in a "blocking" manner, meaning that the program will pause execution of any further code until the synchronous code has completed execution. Asynchronous code, on the other hand, is executed in a non-blocking manner, meaning that the program will not wait for the asynchronous code to finish before moving on to the next block of code.
 
 <br />

@@ -1,0 +1,4 @@
+_"Minification in JavaScript refers to the process of removing unnecessary characters (such as whitespace, comments, and long variable names) from the code in order to reduce its size and improve its loading speed."_
+
+<br/>
+Minifying JavaScript code for a web browser is like removing excess packaging material from a shipped box. Just as a shipped box might contain a lot of excess packaging material (such as bubble wrap, foam peanuts, or air cushions) that takes up space and adds weight, JavaScript code often contains unnecessary characters (such as whitespace, comments, and long variable names) that take up space and add to the file size. Just as removing excess packaging material can reduce the size and weight of the shipped box, minifying the JavaScript code can reduce its size and improve its loading speed.
