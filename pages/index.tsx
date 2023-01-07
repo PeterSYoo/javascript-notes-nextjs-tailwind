@@ -49,6 +49,7 @@ import { UseMutationEffect } from '../components/topics/UseMutationEffect.compon
 import { UseReducer } from '../components/topics/UseReducer.components';
 import { UseRef } from '../components/topics/UseRef.components';
 import { UseState } from '../components/topics/UseState.components';
+import { VirtualDOM } from '../components/topics/VirtualDOM.components';
 
 const Home = () => {
   return (
@@ -108,6 +109,7 @@ const Home = () => {
           <div className="flex flex-col">
             <React />
             <Jsx />
+            <VirtualDOM />
             <ComponentRenderLifeCycle />
             <div className="ml-9">
               <Mounting />
