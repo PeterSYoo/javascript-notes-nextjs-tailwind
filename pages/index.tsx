@@ -27,6 +27,7 @@ import { Promises } from '../components/topics/Promises.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
 import { React } from '../components/topics/React.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
+import { SideEffects } from '../components/topics/SideEffects.components';
 import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
 import { Then } from '../components/topics/Then.components';
@@ -94,6 +95,7 @@ const Home = () => {
             <ControlledVSUncontrolledComponents />
             <Context />
             <UseState />
+            <SideEffects />
           </div>
         </div>
       </div>
