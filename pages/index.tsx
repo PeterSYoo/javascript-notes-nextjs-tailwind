@@ -17,6 +17,7 @@ import { GlobalExecutionContext } from '../components/topics/GlobalExecutionCont
 import { GlobalLexicalEnvironment } from '../components/topics/GlobalLexicalEnvironment.components';
 import { HigherOrderFunctions } from '../components/topics/HigherOrderFunctions.components';
 import { Hoisting } from '../components/topics/Hoisting.components';
+import { Hooks } from '../components/topics/Hooks.components';
 import { ImperativeProgramming } from '../components/topics/ImperativeProgramming.components';
 import { Inheritance } from '../components/topics/Inheritance.components';
 import { Keys } from '../components/topics/Keys.components';
@@ -95,16 +96,19 @@ const Home = () => {
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
             <React />
-            <Keys />
-            <ControlledVSUncontrolledComponents />
-            <Context />
-            <UseState />
-            <SideEffects />
             <ComponentRenderLifeCycle />
             <div className="ml-9">
               <Mounting />
               <Updating />
               <Unmounting />
+            </div>
+            <SideEffects />
+            <Keys />
+            <ControlledVSUncontrolledComponents />
+            <Context />
+            <Hooks />
+            <div className="ml-9">
+              <UseState />
             </div>
           </div>
         </div>
