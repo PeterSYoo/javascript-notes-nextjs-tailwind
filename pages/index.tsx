@@ -4,6 +4,7 @@ import { Bundling } from '../components/topics/Bundling.components';
 import { CallbackFunctions } from '../components/topics/CallbackFunctions.components';
 import { CallStack } from '../components/topics/CallStack.components';
 import { CompilationProcess } from '../components/topics/CompilationProcess.components';
+import { ComponentRenderLifeCycle } from '../components/topics/ComponentRenderLifeCycle.components';
 import { Context } from '../components/topics/Context.components';
 import { ControlledVSUncontrolledComponents } from '../components/topics/ControlledVSUncontrolledComponents.components';
 import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
@@ -99,9 +100,12 @@ const Home = () => {
             <Context />
             <UseState />
             <SideEffects />
-            <Mounting />
-            <Updating />
-            <Unmounting />
+            <ComponentRenderLifeCycle />
+            <div className="ml-9">
+              <Mounting />
+              <Updating />
+              <Unmounting />
+            </div>
           </div>
         </div>
       </div>
