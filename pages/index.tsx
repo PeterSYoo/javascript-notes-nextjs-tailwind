@@ -4,6 +4,7 @@ import { Bundling } from '../components/topics/Bundling.components';
 import { CallbackFunctions } from '../components/topics/CallbackFunctions.components';
 import { CallStack } from '../components/topics/CallStack.components';
 import { CompilationProcess } from '../components/topics/CompilationProcess.components';
+import { Context } from '../components/topics/Context.components';
 import { ControlledVSUncontrolledComponents } from '../components/topics/ControlledVSUncontrolledComponents.components';
 import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
 import { EventDrivenProgramming } from '../components/topics/EventDrivenProgramming.components';
@@ -90,6 +91,7 @@ const Home = () => {
             <React />
             <Keys />
             <ControlledVSUncontrolledComponents />
+            <Context />
           </div>
         </div>
       </div>
