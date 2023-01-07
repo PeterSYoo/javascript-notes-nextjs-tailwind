@@ -12,7 +12,7 @@ For example, consider the following simple JavaScript program that displays a me
 <Code language='javascript'>
 
 function greet(name) {
-&nbsp;const greeting = `Hello, ${name}!`;
+&nbsp;const greeting = 'Hello' + name + '!';
 &nbsp;document.querySelector("#greeting").innerHTML = greeting;
 }
 
