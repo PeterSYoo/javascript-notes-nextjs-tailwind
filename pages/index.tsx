@@ -20,6 +20,7 @@ import { Hoisting } from '../components/topics/Hoisting.components';
 import { Hooks } from '../components/topics/Hooks.components';
 import { ImperativeProgramming } from '../components/topics/ImperativeProgramming.components';
 import { Inheritance } from '../components/topics/Inheritance.components';
+import { Jsx } from '../components/topics/Jsx.components';
 import { Keys } from '../components/topics/Keys.components';
 import { LocalLexicalEnvironment } from '../components/topics/LocalLexicalEnvironment.components';
 import { Minification } from '../components/topics/Minification.components';
@@ -29,6 +30,7 @@ import { Parsing } from '../components/topics/Parsing.components';
 import { Promises } from '../components/topics/Promises.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
 import { React } from '../components/topics/React.components';
+import { RenderProps } from '../components/topics/RenderProps.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
 import { SideEffects } from '../components/topics/SideEffects.components';
 import { SingleThreaded } from '../components/topics/SingleThreaded.components';
@@ -105,6 +107,7 @@ const Home = () => {
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
             <React />
+            <Jsx />
             <ComponentRenderLifeCycle />
             <div className="ml-9">
               <Mounting />
@@ -128,6 +131,7 @@ const Home = () => {
               <UseLayoutEffect />
               <CustomHooks />
             </div>
+            <RenderProps />
           </div>
         </div>
       </div>
