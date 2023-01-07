@@ -5,7 +5,6 @@ import { CallbackFunctions } from '../components/topics/CallbackFunctions.compon
 import { CallStack } from '../components/topics/CallStack.components';
 import { CompilationProcess } from '../components/topics/CompilationProcess.components';
 import { ComponentRenderLifeCycle } from '../components/topics/ComponentRenderLifeCycle.components';
-import { Context } from '../components/topics/Context.components';
 import { ControlledVSUncontrolledComponents } from '../components/topics/ControlledVSUncontrolledComponents.components';
 import { CustomHooks } from '../components/topics/CustomHooks.components';
 import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
