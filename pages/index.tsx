@@ -21,6 +21,7 @@ import { Inheritance } from '../components/topics/Inheritance.components';
 import { Keys } from '../components/topics/Keys.components';
 import { LocalLexicalEnvironment } from '../components/topics/LocalLexicalEnvironment.components';
 import { Minification } from '../components/topics/Minification.components';
+import { Mounting } from '../components/topics/Mounting.components';
 import { OopProgramming } from '../components/topics/OopProgramming.components';
 import { Parsing } from '../components/topics/Parsing.components';
 import { Promises } from '../components/topics/Promises.components';
@@ -96,6 +97,7 @@ const Home = () => {
             <Context />
             <UseState />
             <SideEffects />
+            <Mounting />
           </div>
         </div>
       </div>
