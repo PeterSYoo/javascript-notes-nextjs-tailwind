@@ -22,6 +22,7 @@ import { OopProgramming } from '../components/topics/OopProgramming.components';
 import { Parsing } from '../components/topics/Parsing.components';
 import { Promises } from '../components/topics/Promises.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
+import { React } from '../components/topics/React.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
 import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
@@ -81,6 +82,10 @@ const Home = () => {
             <LocalLexicalEnvironment />
             <ScopeChain />
             <Hoisting />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
+            <React />
           </div>
         </div>
       </div>
