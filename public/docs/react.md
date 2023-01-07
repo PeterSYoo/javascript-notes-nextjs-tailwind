@@ -9,27 +9,28 @@ To create the components, you decide to use React, a JavaScript library for buil
 <br/>
 For example, consider the following code written in React:
 
-<Code language='javascript'>
+```
 
-import React from 'react';
+  import React from 'react';
 
-function Button(props) {
-&nbsp;return <button>{props.label}</button>;
-}
+  function Button(props) {
+    return <button>{props.label}</button>;
+  }
 
-function App() {
-&nbsp;return (
-&nbsp;&nbsp;<div>
-&nbsp;&nbsp;&nbsp;<Button label="Click me" />
-&nbsp;&nbsp;&nbsp;<Button label="Submit" />
-&nbsp;&nbsp;</div>
-&nbsp;);
-}
+  function App() {
+    return (
+      <div>
+        <Button label="Click me" />
+        <Button label="Submit" />
+      </div>
+    );
+  }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+  ReactDOM.render(<App />, document.getElementById('root'));
 
-</Code>
+```
 
+<br/>
 In this code, the Button component is a reusable component that represents a button element in the UI. The App component is the top-level component that represents the entire UI, and it is composed of multiple instances of the Button component. When the code is executed, React will render the UI by creating the necessary HTML elements and inserting them into the DOM (the tree-like structure that represents the content of a webpage).
 
 <br/>

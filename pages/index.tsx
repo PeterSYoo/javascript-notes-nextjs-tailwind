@@ -17,6 +17,7 @@ import { HigherOrderFunctions } from '../components/topics/HigherOrderFunctions.
 import { Hoisting } from '../components/topics/Hoisting.components';
 import { ImperativeProgramming } from '../components/topics/ImperativeProgramming.components';
 import { Inheritance } from '../components/topics/Inheritance.components';
+import { Keys } from '../components/topics/Keys.components';
 import { LocalLexicalEnvironment } from '../components/topics/LocalLexicalEnvironment.components';
 import { Minification } from '../components/topics/Minification.components';
 import { OopProgramming } from '../components/topics/OopProgramming.components';
@@ -87,6 +88,7 @@ const Home = () => {
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
             <React />
+            <Keys />
             <ControlledVSUncontrolledComponents />
           </div>
         </div>
