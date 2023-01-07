@@ -31,7 +31,7 @@ export const SynchronousVSAsynchronous = () => {
           >
             <div className="flex items-center gap-5">
               <MdNotes className="mb-[1.5px]" />
-              <span className="text-sm">Synchronous VS Asynchronous</span>
+              <span className="text-sm">Synchronous vs. Asynchronous</span>
             </div>
             <IoChevronForwardCircleSharp className="chevron-down" />
           </div>
@@ -43,7 +43,7 @@ export const SynchronousVSAsynchronous = () => {
         >
           <div className="flex items-center gap-5">
             <MdNotes className="mb-[1.5px]" />
-            <span className="text-sm">Synchronous VS Asynchronous</span>
+            <span className="text-sm">Synchronous vs. Asynchronous</span>
           </div>
           <IoChevronForwardCircleSharp className="chevron-right" />
         </div>

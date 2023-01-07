@@ -4,14 +4,14 @@ import { Code } from '../Code.components';
 import { IoChevronForwardCircleSharp } from 'react-icons/io5';
 import { MdNotes } from 'react-icons/md';
 
-export const BlockingVSNonBlocking = () => {
+export const UseContext = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
   const [markdown, setMarkdown] = useState<string>('');
 
   useEffect(() => {
     const fetchMarkdown = async () => {
       try {
-        const res = await fetch(`/docs/blockingVSNonBlocking.md`);
+        const res = await fetch(`/docs/useContext.md`);
         const markdownString = await res.text();
         setMarkdown(markdownString);
       } catch (error) {
@@ -31,7 +31,7 @@ export const BlockingVSNonBlocking = () => {
           >
             <div className="flex items-center gap-5">
               <MdNotes className="mb-[1.5px]" />
-              <span className="text-sm">Blocking vs. Non-Blocking</span>
+              <span className="text-sm">useContext</span>
             </div>
             <IoChevronForwardCircleSharp className="chevron-down" />
           </div>
@@ -43,7 +43,7 @@ export const BlockingVSNonBlocking = () => {
         >
           <div className="flex items-center gap-5">
             <MdNotes className="mb-[1.5px]" />
-            <span className="text-sm">Blocking vs. Non-Blocking</span>
+            <span className="text-sm">useContext</span>
           </div>
           <IoChevronForwardCircleSharp className="chevron-right" />
         </div>

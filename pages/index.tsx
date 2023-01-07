@@ -37,7 +37,10 @@ import { Then } from '../components/topics/Then.components';
 import { Transpiling } from '../components/topics/Transpiling.components';
 import { Unmounting } from '../components/topics/Unmounting.components';
 import { Updating } from '../components/topics/Updating.components';
+import { UseCallback } from '../components/topics/UseCallback.components';
+import { UseContext } from '../components/topics/UseContext.components';
 import { UseEffect } from '../components/topics/UseEffect.components';
+import { UseMemo } from '../components/topics/UseMemo.components';
 import { UseReducer } from '../components/topics/UseReducer.components';
 import { UseState } from '../components/topics/UseState.components';
 
@@ -112,7 +115,10 @@ const Home = () => {
             <div className="ml-9">
               <UseState />
               <UseEffect />
+              <UseContext />
               <UseReducer />
+              <UseCallback />
+              <UseMemo />
             </div>
           </div>
         </div>
