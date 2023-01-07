@@ -7,6 +7,7 @@ import { CompilationProcess } from '../components/topics/CompilationProcess.comp
 import { ComponentRenderLifeCycle } from '../components/topics/ComponentRenderLifeCycle.components';
 import { Context } from '../components/topics/Context.components';
 import { ControlledVSUncontrolledComponents } from '../components/topics/ControlledVSUncontrolledComponents.components';
+import { CustomHooks } from '../components/topics/CustomHooks.components';
 import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
 import { EventDrivenProgramming } from '../components/topics/EventDrivenProgramming.components';
 import { EventLoop } from '../components/topics/EventLoop.components';
@@ -40,8 +41,12 @@ import { Updating } from '../components/topics/Updating.components';
 import { UseCallback } from '../components/topics/UseCallback.components';
 import { UseContext } from '../components/topics/UseContext.components';
 import { UseEffect } from '../components/topics/UseEffect.components';
+import { UseImperativeHandle } from '../components/topics/UseImperativeHandle.components';
+import { UseLayoutEffect } from '../components/topics/UseLayoutEffect.components';
 import { UseMemo } from '../components/topics/UseMemo.components';
+import { UseMutationEffect } from '../components/topics/UseMutationEffect.components';
 import { UseReducer } from '../components/topics/UseReducer.components';
+import { UseRef } from '../components/topics/UseRef.components';
 import { UseState } from '../components/topics/UseState.components';
 
 const Home = () => {
@@ -110,7 +115,6 @@ const Home = () => {
             <SideEffects />
             <Keys />
             <ControlledVSUncontrolledComponents />
-            <Context />
             <Hooks />
             <div className="ml-9">
               <UseState />
@@ -119,6 +123,11 @@ const Home = () => {
               <UseReducer />
               <UseCallback />
               <UseMemo />
+              <UseRef />
+              <UseImperativeHandle />
+              <UseMutationEffect />
+              <UseLayoutEffect />
+              <CustomHooks />
             </div>
           </div>
         </div>

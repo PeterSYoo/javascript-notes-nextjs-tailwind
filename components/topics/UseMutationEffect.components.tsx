@@ -4,14 +4,14 @@ import { Code } from '../Code.components';
 import { IoChevronForwardCircleSharp } from 'react-icons/io5';
 import { MdNotes } from 'react-icons/md';
 
-export const Context = () => {
+export const UseMutationEffect = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
   const [markdown, setMarkdown] = useState<string>('');
 
   useEffect(() => {
     const fetchMarkdown = async () => {
       try {
-        const res = await fetch(`/docs/context.md`);
+        const res = await fetch(`/docs/useMutationEffect.md`);
         const markdownString = await res.text();
         setMarkdown(markdownString);
       } catch (error) {
@@ -31,7 +31,7 @@ export const Context = () => {
           >
             <div className="flex items-center gap-5">
               <MdNotes className="mb-[1.5px]" />
-              <span className="text-sm">Context</span>
+              <span className="text-sm">useMutationEffect</span>
             </div>
             <IoChevronForwardCircleSharp className="chevron-down" />
           </div>
@@ -43,7 +43,7 @@ export const Context = () => {
         >
           <div className="flex items-center gap-5">
             <MdNotes className="mb-[1.5px]" />
-            <span className="text-sm">Context</span>
+            <span className="text-sm">useMutationEffect</span>
           </div>
           <IoChevronForwardCircleSharp className="chevron-right" />
         </div>
