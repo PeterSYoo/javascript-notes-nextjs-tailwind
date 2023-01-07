@@ -31,6 +31,7 @@ import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
 import { Then } from '../components/topics/Then.components';
 import { Transpiling } from '../components/topics/Transpiling.components';
+import { UseState } from '../components/topics/UseState.components';
 
 const Home = () => {
   return (
@@ -92,6 +93,7 @@ const Home = () => {
             <Keys />
             <ControlledVSUncontrolledComponents />
             <Context />
+            <UseState />
           </div>
         </div>
       </div>
