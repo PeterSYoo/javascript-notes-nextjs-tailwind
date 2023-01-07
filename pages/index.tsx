@@ -37,6 +37,8 @@ import { Then } from '../components/topics/Then.components';
 import { Transpiling } from '../components/topics/Transpiling.components';
 import { Unmounting } from '../components/topics/Unmounting.components';
 import { Updating } from '../components/topics/Updating.components';
+import { UseEffect } from '../components/topics/UseEffect.components';
+import { UseReducer } from '../components/topics/UseReducer.components';
 import { UseState } from '../components/topics/UseState.components';
 
 const Home = () => {
@@ -109,6 +111,8 @@ const Home = () => {
             <Hooks />
             <div className="ml-9">
               <UseState />
+              <UseEffect />
+              <UseReducer />
             </div>
           </div>
         </div>
