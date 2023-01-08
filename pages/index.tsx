@@ -1,3 +1,4 @@
+import { AreBrowserApisRunningJavascript } from '../components/topics/AreBrowserApisRunningJavascript.components';
 import { AsyncAwait } from '../components/topics/AsyncAwait.components';
 import { BlockingVSNonBlocking } from '../components/topics/BlockingVSNonBlocking.components';
 import { Bundling } from '../components/topics/Bundling.components';
@@ -17,7 +18,9 @@ import { GlobalExecutionContext } from '../components/topics/GlobalExecutionCont
 import { GlobalLexicalEnvironment } from '../components/topics/GlobalLexicalEnvironment.components';
 import { HigherOrderFunctions } from '../components/topics/HigherOrderFunctions.components';
 import { Hoisting } from '../components/topics/Hoisting.components';
+import { HookRules } from '../components/topics/HookRules.components';
 import { Hooks } from '../components/topics/Hooks.components';
+import { HowDoBrowserEnginesHandleExecution } from '../components/topics/HowDoBrowserEnginesHandleExecution.components';
 import { ImperativeProgramming } from '../components/topics/ImperativeProgramming.components';
 import { Inheritance } from '../components/topics/Inheritance.components';
 import { Jsx } from '../components/topics/Jsx.components';
@@ -73,12 +76,14 @@ const Home = () => {
               <Executing />
             </div>
             <SingleThreaded />
+            <HowDoBrowserEnginesHandleExecution />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
             <BlockingVSNonBlocking />
             <SynchronousVSAsynchronous />
             <EventLoop />
+            <AreBrowserApisRunningJavascript />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
@@ -131,6 +136,7 @@ const Home = () => {
             <ControlledVSUncontrolledComponents />
             <Hooks />
             <div className="ml-9">
+              <HookRules />
               <UseState />
               <UseEffect />
               <UseContext />
