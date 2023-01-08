@@ -38,4 +38,4 @@ For example, consider the following code written in React:
 In this code, the useEffect hook is used to perform a side effect when the component mounts or updates. The side effect is setting the document title to reflect the number of times the button has been clicked.
 
 <br/>
-Overall, side effects in React are actions that are performed when a component mounts or updates, but are not directly related to the main purpose of the component. Examples of side effects include making an HTTP request, setting up an event listener, or updating the component's state.
+Overall, side effects in React are actions that are performed when a component mounts or updates, but are not directly related to the main purpose of the component. Examples of side effects include making an HTTP request, setting up an event listener.

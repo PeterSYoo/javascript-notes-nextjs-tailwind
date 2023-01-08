@@ -5,3 +5,15 @@ When JavaScript sends a task to a Browser API for execution, the task is passed 
 
 <br/>
 It's worth noting that some newer browsers also support WebAssembly, which is a low-level language that can be compiled and run in the browser. WebAssembly can be used to perform complex tasks and can be called from JavaScript code using the same mechanisms as browser APIs.
+
+<br/>
+###Are Event Listeners considered side effects because it's calling a browser API?
+
+<br/>
+Yes, event listeners are considered side effects because they involve an interaction with an external system (in this case, the browser). When a program sets an event listener, it is causing a callback function to be registered with the browser, and the callback function will be executed by the browser when the specified event occurs.
+
+<br/>
+In general, any interaction with an external resource or system can be considered a side effect. This can include reading or writing to a database, making an HTTP request, interacting with the filesystem, or even modifying the DOM. All of these actions have an impact outside of the immediate execution context of the program and are therefore considered side effects.
+
+<br/>
+It is important to manage side effects carefully in order to ensure that a program is predictable and easy to test. In some cases, it may be necessary to isolate and clearly identify side effects in order to make a program more manageable and maintainable.

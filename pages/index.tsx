@@ -39,6 +39,7 @@ import { ScopeChain } from '../components/topics/ScopeChain.components';
 import { SetStateWithNewObject } from '../components/topics/SetStateWithNewObject.components';
 import { ShouldYouMutateState } from '../components/topics/ShouldYouMutateState.components';
 import { SideEffects } from '../components/topics/SideEffects.components';
+import { SideEffectsCallStack } from '../components/topics/SideEffectsCallStack.components';
 import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
 import { Then } from '../components/topics/Then.components';
@@ -131,6 +132,7 @@ const Home = () => {
               <Unmounting />
             </div>
             <SideEffects />
+            <SideEffectsCallStack />
             <PureVSImpureFunction />
             <Keys />
             <ControlledVSUncontrolledComponents />
