@@ -53,6 +53,9 @@ import { UseReducer } from '../components/topics/UseReducer.components';
 import { UseRef } from '../components/topics/UseRef.components';
 import { UseState } from '../components/topics/UseState.components';
 import { VirtualDOM } from '../components/topics/VirtualDOM.components';
+import { WhatCausesRerenders } from '../components/topics/WhatCausesRerenders.components';
+import { WhatHappensInAReactApp } from '../components/topics/WhatHappensInAReactApp.components';
+import { WhatIsACleanUpFunction } from '../components/topics/WhatIsACleanupFunctionUseEffect.components';
 import { WorkingWithComplexDataUseState } from '../components/topics/WorkingWithComplexDataUseState.components';
 
 const Home = () => {
@@ -112,6 +115,8 @@ const Home = () => {
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
             <React />
+            <WhatHappensInAReactApp />
+            <WhatCausesRerenders />
             <Jsx />
             <VirtualDOM />
             <ComponentRenderLifeCycle />
@@ -142,6 +147,7 @@ const Home = () => {
             <WorkingWithComplexDataUseState />
             <ShouldYouMutateState />
             <SetStateWithNewObject />
+            <WhatIsACleanUpFunction />
           </div>
         </div>
       </div>
