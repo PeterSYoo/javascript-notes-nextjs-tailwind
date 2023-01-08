@@ -29,9 +29,12 @@ import { OopProgramming } from '../components/topics/OopProgramming.components';
 import { Parsing } from '../components/topics/Parsing.components';
 import { Promises } from '../components/topics/Promises.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
+import { PureVSImpureFunction } from '../components/topics/PureVSImpureFunction.components';
 import { React } from '../components/topics/React.components';
 import { RenderProps } from '../components/topics/RenderProps.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
+import { SetStateWithNewObject } from '../components/topics/SetStateWithNewObject.components';
+import { ShouldYouMutateState } from '../components/topics/ShouldYouMutateState.components';
 import { SideEffects } from '../components/topics/SideEffects.components';
 import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
@@ -50,6 +53,7 @@ import { UseReducer } from '../components/topics/UseReducer.components';
 import { UseRef } from '../components/topics/UseRef.components';
 import { UseState } from '../components/topics/UseState.components';
 import { VirtualDOM } from '../components/topics/VirtualDOM.components';
+import { WorkingWithComplexDataUseState } from '../components/topics/WorkingWithComplexDataUseState.components';
 
 const Home = () => {
   return (
@@ -117,6 +121,7 @@ const Home = () => {
               <Unmounting />
             </div>
             <SideEffects />
+            <PureVSImpureFunction />
             <Keys />
             <ControlledVSUncontrolledComponents />
             <Hooks />
@@ -134,6 +139,9 @@ const Home = () => {
               <CustomHooks />
             </div>
             <RenderProps />
+            <WorkingWithComplexDataUseState />
+            <ShouldYouMutateState />
+            <SetStateWithNewObject />
           </div>
         </div>
       </div>
