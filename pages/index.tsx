@@ -35,6 +35,7 @@ import { Promises } from '../components/topics/Promises.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
 import { PureVSImpureFunction } from '../components/topics/PureVSImpureFunction.components';
 import { React } from '../components/topics/React.components';
+import { ReactChildrenMap } from '../components/topics/ReactChildren.components';
 import { RenderProps } from '../components/topics/RenderProps.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
 import { SetStateWithNewObject } from '../components/topics/SetStateWithNewObject.components';
@@ -160,6 +161,7 @@ const Home = () => {
             <ShouldYouMutateState />
             <SetStateWithNewObject />
             <WhatIsACleanUpFunction />
+            <ReactChildrenMap />
           </div>
         </div>
       </div>
