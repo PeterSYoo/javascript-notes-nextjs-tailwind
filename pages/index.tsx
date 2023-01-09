@@ -24,6 +24,7 @@ import { HowDoBrowserEnginesHandleExecution } from '../components/topics/HowDoBr
 import { ImperativeProgramming } from '../components/topics/ImperativeProgramming.components';
 import { Inheritance } from '../components/topics/Inheritance.components';
 import { Jsx } from '../components/topics/Jsx.components';
+import { JSXElementToDomNode } from '../components/topics/JSXElementToDomNode.components';
 import { Keys } from '../components/topics/Keys.components';
 import { LocalLexicalEnvironment } from '../components/topics/LocalLexicalEnvironment.components';
 import { Minification } from '../components/topics/Minification.components';
@@ -126,6 +127,7 @@ const Home = () => {
             <WhatCausesRerenders />
             <Jsx />
             <VirtualDOM />
+            <JSXElementToDomNode />
             <ComponentRenderLifeCycle />
             <div className="ml-9">
               <Mounting />
