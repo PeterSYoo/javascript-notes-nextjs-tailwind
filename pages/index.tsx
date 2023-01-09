@@ -60,6 +60,7 @@ import { VirtualDOM } from '../components/topics/VirtualDOM.components';
 import { WhatCausesRerenders } from '../components/topics/WhatCausesRerenders.components';
 import { WhatHappensInAReactApp } from '../components/topics/WhatHappensInAReactApp.components';
 import { WhatIsACleanUpFunction } from '../components/topics/WhatIsACleanupFunctionUseEffect.components';
+import { WhenToChooseUseReducerVSUseState } from '../components/topics/WhenToChooseUseReducerUseState.components';
 import { WorkingWithComplexDataUseState } from '../components/topics/WorkingWithComplexDataUseState.components';
 
 const Home = () => {
@@ -151,6 +152,7 @@ const Home = () => {
               <UseLayoutEffect />
               <CustomHooks />
             </div>
+            <WhenToChooseUseReducerVSUseState />
             <RenderProps />
             <WorkingWithComplexDataUseState />
             <ShouldYouMutateState />
