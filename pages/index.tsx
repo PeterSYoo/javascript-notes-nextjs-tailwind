@@ -7,8 +7,12 @@ import { CallStack } from '../components/topics/CallStack.components';
 import { CompilationProcess } from '../components/topics/CompilationProcess.components';
 import { ComponentRenderLifeCycle } from '../components/topics/ComponentRenderLifeCycle.components';
 import { ControlledVSUncontrolledComponents } from '../components/topics/ControlledVSUncontrolledComponents.components';
+import { CrossCuttingConcerns } from '../components/topics/CrossCuttingConcerns.components';
 import { CustomHooks } from '../components/topics/CustomHooks.components';
 import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
+import { DOM } from '../components/topics/DOM.components';
+import { DOMNodesToHTML } from '../components/topics/DOMNodesToHTML.components';
+import { DOMNodesToHTMLSSRvsCSR } from '../components/topics/DOMNodesToHTMLSSRvsCSR.components';
 import { EventDrivenProgramming } from '../components/topics/EventDrivenProgramming.components';
 import { EventLoop } from '../components/topics/EventLoop.components';
 import { Events } from '../components/topics/Events.components';
@@ -16,6 +20,7 @@ import { Executing } from '../components/topics/Executing.components';
 import { FunctionalProgramming } from '../components/topics/FunctionalProgramming.components';
 import { GlobalExecutionContext } from '../components/topics/GlobalExecutionContext.components';
 import { GlobalLexicalEnvironment } from '../components/topics/GlobalLexicalEnvironment.components';
+import { HigherOrderComponents } from '../components/topics/HigherOrderComponent.components';
 import { HigherOrderFunctions } from '../components/topics/HigherOrderFunctions.components';
 import { Hoisting } from '../components/topics/Hoisting.components';
 import { HookRules } from '../components/topics/HookRules.components';
@@ -36,6 +41,7 @@ import { Prototypes } from '../components/topics/Prototypes.components';
 import { PureVSImpureFunction } from '../components/topics/PureVSImpureFunction.components';
 import { React } from '../components/topics/React.components';
 import { ReactChildrenMap } from '../components/topics/ReactChildren.components';
+import { ReactCloneElement } from '../components/topics/ReactCloneElement.components';
 import { RenderProps } from '../components/topics/RenderProps.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
 import { SetStateWithNewObject } from '../components/topics/SetStateWithNewObject.components';
@@ -43,6 +49,7 @@ import { ShouldYouMutateState } from '../components/topics/ShouldYouMutateState.
 import { SideEffects } from '../components/topics/SideEffects.components';
 import { SideEffectsCallStack } from '../components/topics/SideEffectsCallStack.components';
 import { SingleThreaded } from '../components/topics/SingleThreaded.components';
+import { SpreadOperator } from '../components/topics/SpreadOperator.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
 import { Then } from '../components/topics/Then.components';
 import { Transpiling } from '../components/topics/Transpiling.components';
@@ -123,6 +130,16 @@ const Home = () => {
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
+            <DOM />
+            <DOMNodesToHTML />
+            <DOMNodesToHTMLSSRvsCSR />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
+            <SpreadOperator />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
             <React />
             <WhatHappensInAReactApp />
             <WhatCausesRerenders />
@@ -157,11 +174,14 @@ const Home = () => {
             </div>
             <WhenToChooseUseReducerVSUseState />
             <RenderProps />
+            <CrossCuttingConcerns />
+            <HigherOrderComponents />
             <WorkingWithComplexDataUseState />
             <ShouldYouMutateState />
             <SetStateWithNewObject />
             <WhatIsACleanUpFunction />
             <ReactChildrenMap />
+            <ReactCloneElement />
           </div>
         </div>
       </div>
