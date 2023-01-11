@@ -8,6 +8,8 @@ import { CompilationProcess } from '../components/topics/CompilationProcess.comp
 import { ComponentRenderLifeCycle } from '../components/topics/ComponentRenderLifeCycle.components';
 import { ControlledVSUncontrolledComponents } from '../components/topics/ControlledVSUncontrolledComponents.components';
 import { CrossCuttingConcerns } from '../components/topics/CrossCuttingConcerns.components';
+import { CSS } from '../components/topics/CSS.components';
+import { CSSIsNotConsideredAProgrammingLanguage } from '../components/topics/CSSIsNotAProgrammingLanguage.components';
 import { CustomHooks } from '../components/topics/CustomHooks.components';
 import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
 import { DOM } from '../components/topics/DOM.components';
@@ -26,12 +28,16 @@ import { Hoisting } from '../components/topics/Hoisting.components';
 import { HookRules } from '../components/topics/HookRules.components';
 import { Hooks } from '../components/topics/Hooks.components';
 import { HowDoBrowserEnginesHandleExecution } from '../components/topics/HowDoBrowserEnginesHandleExecution.components';
+import { HTML } from '../components/topics/HTML.components';
+import { HTMLIsNotConsideredAProgrammingLanguage } from '../components/topics/HTMLIsNotAProgrammingLanguage.components';
+import { HTMLSemanticTags } from '../components/topics/HTMLSemanticTags.components';
 import { ImperativeProgramming } from '../components/topics/ImperativeProgramming.components';
 import { Inheritance } from '../components/topics/Inheritance.components';
 import { Jsx } from '../components/topics/Jsx.components';
 import { JSXElementToDomNode } from '../components/topics/JSXElementToDomNode.components';
 import { Keys } from '../components/topics/Keys.components';
 import { LocalLexicalEnvironment } from '../components/topics/LocalLexicalEnvironment.components';
+import { MetaData } from '../components/topics/MetaData.components';
 import { Minification } from '../components/topics/Minification.components';
 import { Mounting } from '../components/topics/Mounting.components';
 import { OopProgramming } from '../components/topics/OopProgramming.components';
@@ -130,9 +136,15 @@ const Home = () => {
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
+            <HTML />
+            <HTMLIsNotConsideredAProgrammingLanguage />
+            <HTMLSemanticTags />
+            <MetaData />
             <DOM />
             <DOMNodesToHTML />
             <DOMNodesToHTMLSSRvsCSR />
+            <CSS />
+            <CSSIsNotConsideredAProgrammingLanguage />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
