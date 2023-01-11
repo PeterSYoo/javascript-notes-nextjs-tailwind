@@ -3,23 +3,10 @@ import Markdown from 'markdown-to-jsx';
 import { Code } from '../Code.components';
 import { IoChevronForwardCircleSharp } from 'react-icons/io5';
 import { MdNotes } from 'react-icons/md';
+import { ComponentRenderLifeCycleMD } from './markdown/ComponentRenderLifeCycleMD.components';
 
 export const ComponentRenderLifeCycle = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
-  const [markdown, setMarkdown] = useState<string>('');
-
-  useEffect(() => {
-    const fetchMarkdown = async () => {
-      try {
-        const res = await fetch(`/docs/componentRenderLifeCycle.md`);
-        const markdownString = await res.text();
-        setMarkdown(markdownString);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-    fetchMarkdown();
-  }, []);
 
   return (
     <>
@@ -50,19 +37,8 @@ export const ComponentRenderLifeCycle = () => {
       )}
       {isClicked ? (
         <>
-          <div className="markdown-container">
-            <Markdown
-              options={{
-                overrides: {
-                  Code: {
-                    component: Code,
-                  },
-                },
-              }}
-              className="markdown"
-            >
-              {markdown}
-            </Markdown>
+          <div className="markdown-container flex flex-col gap-4 text-[16px]">
+            <ComponentRenderLifeCycleMD />
             <div className="flex mt-10">
               <button
                 onClick={() => setIsClicked(!isClicked)}

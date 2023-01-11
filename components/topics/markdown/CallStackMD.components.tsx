@@ -1,7 +1,7 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { darcula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
-export const EventsMD = () => {
+export const CallStackMD = () => {
   const c1 = ``;
 
   return (

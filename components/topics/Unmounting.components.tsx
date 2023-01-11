@@ -3,23 +3,10 @@ import Markdown from 'markdown-to-jsx';
 import { Code } from '../Code.components';
 import { IoChevronForwardCircleSharp } from 'react-icons/io5';
 import { MdNotes } from 'react-icons/md';
+import { UnmountingMD } from './markdown/UnmountingMD.components';
 
 export const Unmounting = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
-  const [markdown, setMarkdown] = useState<string>('');
-
-  useEffect(() => {
-    const fetchMarkdown = async () => {
-      try {
-        const res = await fetch(`/docs/unmounting.md`);
-        const markdownString = await res.text();
-        setMarkdown(markdownString);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-    fetchMarkdown();
-  }, []);
 
   return (
     <>
@@ -50,19 +37,8 @@ export const Unmounting = () => {
       )}
       {isClicked ? (
         <>
-          <div className="markdown-container">
-            <Markdown
-              options={{
-                overrides: {
-                  Code: {
-                    component: Code,
-                  },
-                },
-              }}
-              className="markdown"
-            >
-              {markdown}
-            </Markdown>
+          <div className="markdown-container flex flex-col gap-4 text-[16px]">
+            <UnmountingMD />
             <div className="flex mt-10">
               <button
                 onClick={() => setIsClicked(!isClicked)}
