@@ -23,14 +23,17 @@
   font-weight: normal;
 }
 
+.markdown ol {
+  list-style: decimal;
+}
+
 .markdown li {
-  list-style-type: disc;
+  list-style: decimal;
   margin-bottom: 0.5em;
   font-size: 0.9em;
 }
 
 .markdown li li {
-  list-style-type: circle;
   margin-left: 1em;
   font-size: 0.9em;
 }

@@ -1,8 +1,10 @@
-import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { darcula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import SyntaxHighlighter from 'react-syntax-highlighter';
 import { RxCopy, RxClipboard } from 'react-icons/rx';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import { useEffect, useState } from 'react';
+import jsx from 'react-syntax-highlighter/dist/cjs/languages/prism/jsx';
+import prism from 'react-syntax-highlighter/dist/cjs/styles/prism/prism';
 
 export const Code = ({ children, language }: any) => {
   const [copied, setCopied] = useState<boolean>(false);

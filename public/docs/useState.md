@@ -15,24 +15,23 @@ In React, the useState hook works in a similar way. It allows you to add state t
 <br/>
 For example, consider the following code written in React:
 
-```
+<Code language='javascript'>
 
-  import React, { useState } from 'react';
+&nbsp;import React, { useState } from 'react';
 
-  function Example() {
-    const [count, setCount] = useState(0);
+&nbsp;function Example() {
+&nbsp;&nbsp;const [count, setCount] = useState(0);
 
-    return (
-      <div>
-        <p>You clicked {count} times</p>
-        <button onClick={() => setCount(count + 1)}>
-          Click me
-        </button>
-      </div>
-    );
-  }
-
-```
+&nbsp;&nbsp;return (
+&nbsp;&nbsp;&nbsp;<div>
+&nbsp;&nbsp;&nbsp;&nbsp;<p>You clicked {count} times</p>
+&nbsp;&nbsp;&nbsp;&nbsp;<button onClick={() => setCount(count + 1)}>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me
+&nbsp;&nbsp;&nbsp;&nbsp;</button>
+&nbsp;&nbsp;&nbsp;</div>
+&nbsp;&nbsp;);
+&nbsp;}
+</Code>
 
 <br/>
 In this code, the `useState` hook is used to add state to the `Example` component. The `count` state variable is used to store the number of times the button has been clicked, and the `setCount` function is used to update the value of the `count` state variable when the button is clicked.
