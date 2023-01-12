@@ -3,9 +3,10 @@ import Markdown from 'markdown-to-jsx';
 import { Code } from '../Code.components';
 import { IoChevronForwardCircleSharp } from 'react-icons/io5';
 import { MdNotes } from 'react-icons/md';
-import { FormValidationsMD } from './markdown/FormValidationsMD.components';
+import { HTMLMD } from './markdown/HTMLMD.components';
+import { HTMLFormInputsMD } from './markdown/HTMLFormInputsMD.components';
 
-export const FormValidations = () => {
+export const HTMLFormInputs = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
 
   return (
@@ -18,9 +19,7 @@ export const FormValidations = () => {
           >
             <div className="flex items-center gap-5">
               <MdNotes className="mb-[1.5px]" />
-              <span className="text-sm">
-                Form Validations & Client-side vs. Server-side Form Validations
-              </span>
+              <span className="text-sm">HTML Form Inputs</span>
             </div>
             <IoChevronForwardCircleSharp className="chevron-down" />
           </div>
@@ -32,9 +31,7 @@ export const FormValidations = () => {
         >
           <div className="flex items-center gap-5">
             <MdNotes className="mb-[1.5px]" />
-            <span className="text-sm">
-              Form Validations & Client-side vs. Server-side Form Validations
-            </span>
+            <span className="text-sm">HTML Form Inputs</span>
           </div>
           <IoChevronForwardCircleSharp className="chevron-right" />
         </div>
@@ -42,7 +39,7 @@ export const FormValidations = () => {
       {isClicked ? (
         <>
           <div className="markdown-container flex flex-col gap-4 text-[16px]">
-            <FormValidationsMD />
+            <HTMLFormInputsMD />
             <div className="flex mt-10">
               <button
                 onClick={() => setIsClicked(!isClicked)}

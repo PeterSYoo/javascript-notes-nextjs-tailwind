@@ -14,6 +14,16 @@ export const BlockingVSNonBlockingMD = () => {
   blockingFunction(); // This function call will block the execution of other code until it finishes
   console.log("After calling blocking function");
   `;
+  const c2 = `
+  function nonBlockingFunction(callback) {
+    // This function finishes quickly, so it does not block the execution of other code
+    setTimeout(callback, 1000); // Execute the callback function after 1000 milliseconds
+  }
+
+  console.log("Before calling non-blocking function");
+  nonBlockingFunction(() => console.log("Inside non-blocking function")); // This function call is non-blocking
+  console.log("After calling non-blocking function");
+  `;
 
   return (
     <>
@@ -71,8 +81,7 @@ export const BlockingVSNonBlockingMD = () => {
         program to make better use of available resources and can improve its
         overall performance.
       </p>
-      <p></p>
-      Here is an example of blocking code:
+      <p>Here is an example of blocking code:</p>
       <SyntaxHighlighter
         language="javascript"
         style={darcula}
@@ -80,6 +89,28 @@ export const BlockingVSNonBlockingMD = () => {
       >
         {c1}
       </SyntaxHighlighter>
+      <p>
+        In this example, the `blockingFunction` takes a long time to execute, so
+        it will block the execution of any code that comes after it. As a
+        result, the message &quot;After calling blocking function&quot; will not
+        be logged until the `blockingFunction` has finished running.
+      </p>
+      <p>Here is an example of non-blocking code:</p>
+      <SyntaxHighlighter
+        language="javascript"
+        style={darcula}
+        className="text-[12px] rounded-xl"
+      >
+        {c2}
+      </SyntaxHighlighter>
+      <p>
+        In this example, the `nonBlockingFunction` uses the `setTimeout`
+        function to schedule the execution of a callback function after a
+        specified amount of time. This allows the `nonBlockingFunction` to
+        finish quickly and does not block the execution of other code. As a
+        result, all three messages will be logged in the order that they appear
+        in the code.
+      </p>
     </>
   );
 };

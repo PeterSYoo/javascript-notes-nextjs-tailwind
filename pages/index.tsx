@@ -19,6 +19,7 @@ import { EventDrivenProgramming } from '../components/topics/EventDrivenProgramm
 import { EventLoop } from '../components/topics/EventLoop.components';
 import { Events } from '../components/topics/Events.components';
 import { Executing } from '../components/topics/Executing.components';
+import { FormValidations } from '../components/topics/FormValidations.components';
 import { FunctionalProgramming } from '../components/topics/FunctionalProgramming.components';
 import { GlobalExecutionContext } from '../components/topics/GlobalExecutionContext.components';
 import { GlobalLexicalEnvironment } from '../components/topics/GlobalLexicalEnvironment.components';
@@ -29,6 +30,8 @@ import { HookRules } from '../components/topics/HookRules.components';
 import { Hooks } from '../components/topics/Hooks.components';
 import { HowDoBrowserEnginesHandleExecution } from '../components/topics/HowDoBrowserEnginesHandleExecution.components';
 import { HTML } from '../components/topics/HTML.components';
+import { HTMLFormActionsAndMethods } from '../components/topics/HTMLFormActionsAndMethods.components';
+import { HTMLFormInputs } from '../components/topics/HTMLFormInputs.components';
 import { HTMLIsNotConsideredAProgrammingLanguage } from '../components/topics/HTMLIsNotAProgrammingLanguage.components';
 import { HTMLSemanticTags } from '../components/topics/HTMLSemanticTags.components';
 import { ImperativeProgramming } from '../components/topics/ImperativeProgramming.components';
@@ -143,6 +146,12 @@ const Home = () => {
             <DOM />
             <DOMNodesToHTML />
             <DOMNodesToHTMLSSRvsCSR />
+            <HTMLFormInputs />
+            <FormValidations />
+            <HTMLFormActionsAndMethods />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
             <CSS />
             <CSSIsNotConsideredAProgrammingLanguage />
           </div>
