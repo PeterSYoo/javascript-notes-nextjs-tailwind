@@ -2,9 +2,18 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { darcula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 export const PrototypesMD = () => {
-  const c1 = ``;
-  const c2 = ``;
-  const c3 = ``;
+  const c1 = `
+  const person = Object.create(Person.prototype);
+  `;
+  const c2 = `
+  person.name = "Alice";
+  person.age = 30;
+  person.gender = "female";
+  `;
+  const c3 = `
+  person.speak("Hello, my name is Alice!");
+  person.walk();
+  `;
 
   return (
     <>

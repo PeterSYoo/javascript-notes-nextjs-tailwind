@@ -2,8 +2,6 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { darcula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 export const SideEffectsCallStackMD = () => {
-  const c1 = ``;
-
   return (
     <>
       <p>
@@ -25,14 +23,6 @@ export const SideEffectsCallStackMD = () => {
         no side effects and can be easily composed and combined to perform more
         complex tasks.
       </p>
-
-      <SyntaxHighlighter
-        language="javascript"
-        style={darcula}
-        className="text-[12px] rounded-xl"
-      >
-        {c1}
-      </SyntaxHighlighter>
     </>
   );
 };
