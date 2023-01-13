@@ -43,6 +43,7 @@ import { LocalLexicalEnvironment } from '../components/topics/LocalLexicalEnviro
 import { MetaData } from '../components/topics/MetaData.components';
 import { Minification } from '../components/topics/Minification.components';
 import { Mounting } from '../components/topics/Mounting.components';
+import { NoSQL } from '../components/topics/NoSQL.components';
 import { OopProgramming } from '../components/topics/OopProgramming.components';
 import { Parsing } from '../components/topics/Parsing.components';
 import { Promises } from '../components/topics/Promises.components';
@@ -51,6 +52,7 @@ import { PureVSImpureFunction } from '../components/topics/PureVSImpureFunction.
 import { React } from '../components/topics/React.components';
 import { ReactChildrenMap } from '../components/topics/ReactChildren.components';
 import { ReactCloneElement } from '../components/topics/ReactCloneElement.components';
+import { RelationalVSNonRelationalDatabases } from '../components/topics/RelationalVSNonRelationalDatabases.components';
 import { RenderProps } from '../components/topics/RenderProps.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
 import { SetStateWithNewObject } from '../components/topics/SetStateWithNewObject.components';
@@ -59,6 +61,7 @@ import { SideEffects } from '../components/topics/SideEffects.components';
 import { SideEffectsCallStack } from '../components/topics/SideEffectsCallStack.components';
 import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SpreadOperator } from '../components/topics/SpreadOperator.components';
+import { SQL } from '../components/topics/SQL.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
 import { Then } from '../components/topics/Then.components';
 import { Transpiling } from '../components/topics/Transpiling.components';
@@ -158,6 +161,12 @@ const Home = () => {
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
             <SpreadOperator />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
+            <SQL />
+            <NoSQL />
+            <RelationalVSNonRelationalDatabases />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
