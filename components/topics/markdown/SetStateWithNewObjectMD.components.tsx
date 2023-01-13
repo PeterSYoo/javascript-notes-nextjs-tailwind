@@ -29,7 +29,6 @@ export const SetStateWithNewObjectMD = () => {
 
   return (
     <>
-      <p className="italic font-serif text-[#2b2b2b]"></p>
       <SyntaxHighlighter
         language="javascript"
         style={darcula}
