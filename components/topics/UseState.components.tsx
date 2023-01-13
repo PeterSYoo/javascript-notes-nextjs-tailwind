@@ -3,6 +3,7 @@ import Markdown from 'markdown-to-jsx';
 import { Code } from '../Code.components';
 import { IoChevronForwardCircleSharp } from 'react-icons/io5';
 import { MdNotes } from 'react-icons/md';
+import { UseStateMD } from './markdown/UseStateMD.components';
 
 export const UseState = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
@@ -37,6 +38,7 @@ export const UseState = () => {
       {isClicked ? (
         <>
           <div className="markdown-container flex flex-col gap-4 text-[16px]">
+            <UseStateMD />
             <div className="flex mt-10">
               <button
                 onClick={() => setIsClicked(!isClicked)}
