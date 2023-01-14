@@ -50,6 +50,49 @@ export const GridMD = () => {
     grid-row: 2 / 3; /* starts at row 2 and ends at row 3 */
   }  
   `;
+  const c4 = `
+  <head> 
+    <link rel="stylesheet" href="gridta.css"> 
+  </head> 
+
+  <body> 
+    <header> Header </header> 
+    <nav class="nav-bar"> Navigation </nav> 
+    <main> Main area </main> 
+    <footer> Footer </footer> 
+  </body> 
+  `;
+  const c5 = `
+  body { 
+    display: grid; 
+    height: 200px; 
+    grid-template-areas: "head head" 
+                         "nav  main" 
+                         "footer  footer"; 
+    grid-template-rows: 30px 1fr 30px; 
+    grid-template-columns: 150px 1fr; 
+  } 
+
+  header { 
+    grid-area: head; 
+    background-color: lightsalmon; 
+  } 
+   
+  .nav-bar { 
+    grid-area: nav; 
+    background-color: lightblue; 
+  } 
+   
+  main { 
+    grid-area: main; 
+    background-color: lightyellow; 
+  } 
+   
+   footer { 
+    grid-area: footer; 
+    background-color: firebrick; 
+  } 
+  `;
 
   return (
     <>
@@ -146,6 +189,44 @@ export const GridMD = () => {
         strengths and weaknesses, and the best choice for a particular project
         depends on the specific requirements and layout needs of that project.
       </p>
+      <h2 className="font-semibold">Process:</h2>
+      <ol className="list-decimal ml-5">
+        <li>Define the grid using display property</li>
+        <li>Set the height and width of the grid</li>
+        <li>
+          Set the grid-template-areas with the appropriate name identifiers
+        </li>
+        <li>
+          Add the appropriate sizes for the rows inside the grid using
+          grid-template-rows property
+        </li>
+        <li>
+          Add the appropriate sizes for the columns inside the grid using
+          grid-template-columns property
+        </li>
+      </ol>
+      <p>
+        But how exactly do you use these names and where do they come from? The
+        names that you use inside the grid template areas are the HTML tags that
+        you have used. Or, where you need to get more specific, you designate a
+        class name to these tags. Once the names are assigned, you define the
+        properties for each class the same way that you define them
+        conventionally. Let&apos;s examine an example.
+      </p>
+      <SyntaxHighlighter
+        language="javascript"
+        style={darcula}
+        className="text-[12px] rounded-xl"
+      >
+        {c4}
+      </SyntaxHighlighter>
+      <SyntaxHighlighter
+        language="javascript"
+        style={darcula}
+        className="text-[12px] rounded-xl"
+      >
+        {c5}
+      </SyntaxHighlighter>
     </>
   );
 };
