@@ -19,10 +19,12 @@ import { EventDrivenProgramming } from '../components/topics/EventDrivenProgramm
 import { EventLoop } from '../components/topics/EventLoop.components';
 import { Events } from '../components/topics/Events.components';
 import { Executing } from '../components/topics/Executing.components';
+import { Flexbox } from '../components/topics/Flexbox.components';
 import { FormValidations } from '../components/topics/FormValidations.components';
 import { FunctionalProgramming } from '../components/topics/FunctionalProgramming.components';
 import { GlobalExecutionContext } from '../components/topics/GlobalExecutionContext.components';
 import { GlobalLexicalEnvironment } from '../components/topics/GlobalLexicalEnvironment.components';
+import { Grid } from '../components/topics/Grid.components';
 import { HigherOrderComponents } from '../components/topics/HigherOrderComponent.components';
 import { HigherOrderFunctions } from '../components/topics/HigherOrderFunctions.components';
 import { Hoisting } from '../components/topics/Hoisting.components';
@@ -77,6 +79,7 @@ import { UseMutationEffect } from '../components/topics/UseMutationEffect.compon
 import { UseReducer } from '../components/topics/UseReducer.components';
 import { UseRef } from '../components/topics/UseRef.components';
 import { UseState } from '../components/topics/UseState.components';
+import { Viewport } from '../components/topics/Viewport.components';
 import { VirtualDOM } from '../components/topics/VirtualDOM.components';
 import { WhatCausesRerenders } from '../components/topics/WhatCausesRerenders.components';
 import { WhatHappensInAReactApp } from '../components/topics/WhatHappensInAReactApp.components';
@@ -142,6 +145,7 @@ const Home = () => {
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
+            <Viewport />
             <HTML />
             <HTMLIsNotConsideredAProgrammingLanguage />
             <HTMLSemanticTags />
@@ -157,6 +161,8 @@ const Home = () => {
           <div className="flex flex-col">
             <CSS />
             <CSSIsNotConsideredAProgrammingLanguage />
+            <Flexbox />
+            <Grid />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
