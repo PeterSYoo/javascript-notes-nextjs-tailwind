@@ -10,6 +10,7 @@ import { ControlledVSUncontrolledComponents } from '../components/topics/Control
 import { CrossCuttingConcerns } from '../components/topics/CrossCuttingConcerns.components';
 import { CSS } from '../components/topics/CSS.components';
 import { CSSIsNotConsideredAProgrammingLanguage } from '../components/topics/CSSIsNotAProgrammingLanguage.components';
+import { CSSSelectorsAndTheirSpecificity } from '../components/topics/CSSSelectorsAndTheirSpecificity.components';
 import { CSSUnitsOfMeasurements } from '../components/topics/CSSUnitsOfMeasurements.components';
 import { CustomHooks } from '../components/topics/CustomHooks.components';
 import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
@@ -165,6 +166,7 @@ const Home = () => {
             <Flexbox />
             <Grid />
             <CSSUnitsOfMeasurements />
+            <CSSSelectorsAndTheirSpecificity />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
