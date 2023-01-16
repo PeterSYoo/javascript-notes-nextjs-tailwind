@@ -21,6 +21,7 @@ import { EventDrivenProgramming } from '../components/topics/EventDrivenProgramm
 import { EventLoop } from '../components/topics/EventLoop.components';
 import { Events } from '../components/topics/Events.components';
 import { Executing } from '../components/topics/Executing.components';
+import { FaaSVSPaaS } from '../components/topics/FaaSVSPaaS.components';
 import { Flexbox } from '../components/topics/Flexbox.components';
 import { FormValidations } from '../components/topics/FormValidations.components';
 import { FunctionalProgramming } from '../components/topics/FunctionalProgramming.components';
@@ -58,6 +59,7 @@ import { ReactChildrenMap } from '../components/topics/ReactChildren.components'
 import { ReactCloneElement } from '../components/topics/ReactCloneElement.components';
 import { RelationalVSNonRelationalDatabases } from '../components/topics/RelationalVSNonRelationalDatabases.components';
 import { RenderProps } from '../components/topics/RenderProps.components';
+import { RESTvsSOAP } from '../components/topics/RESTvsSOAP.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
 import { SetStateWithNewObject } from '../components/topics/SetStateWithNewObject.components';
 import { ShouldYouMutateState } from '../components/topics/ShouldYouMutateState.components';
@@ -177,6 +179,11 @@ const Home = () => {
             <SQL />
             <NoSQL />
             <RelationalVSNonRelationalDatabases />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
+            <RESTvsSOAP />
+            <FaaSVSPaaS />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
