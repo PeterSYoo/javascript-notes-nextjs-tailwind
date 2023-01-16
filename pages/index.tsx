@@ -1,3 +1,4 @@
+import { API } from '../components/topics/API.components';
 import { AreBrowserApisRunningJavascript } from '../components/topics/AreBrowserApisRunningJavascript.components';
 import { AsyncAwait } from '../components/topics/AsyncAwait.components';
 import { BlockingVSNonBlocking } from '../components/topics/BlockingVSNonBlocking.components';
@@ -39,6 +40,7 @@ import { HTMLFormActionsAndMethods } from '../components/topics/HTMLFormActionsA
 import { HTMLFormInputs } from '../components/topics/HTMLFormInputs.components';
 import { HTMLIsNotConsideredAProgrammingLanguage } from '../components/topics/HTMLIsNotAProgrammingLanguage.components';
 import { HTMLSemanticTags } from '../components/topics/HTMLSemanticTags.components';
+import { HTTPProtocol } from '../components/topics/HTTPProtocol.components';
 import { ImperativeProgramming } from '../components/topics/ImperativeProgramming.components';
 import { Inheritance } from '../components/topics/Inheritance.components';
 import { Jsx } from '../components/topics/Jsx.components';
@@ -52,6 +54,7 @@ import { NoSQL } from '../components/topics/NoSQL.components';
 import { OopProgramming } from '../components/topics/OopProgramming.components';
 import { Parsing } from '../components/topics/Parsing.components';
 import { Promises } from '../components/topics/Promises.components';
+import { ProtocolsList } from '../components/topics/ProtocolsList.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
 import { PureVSImpureFunction } from '../components/topics/PureVSImpureFunction.components';
 import { React } from '../components/topics/React.components';
@@ -59,6 +62,8 @@ import { ReactChildrenMap } from '../components/topics/ReactChildren.components'
 import { ReactCloneElement } from '../components/topics/ReactCloneElement.components';
 import { RelationalVSNonRelationalDatabases } from '../components/topics/RelationalVSNonRelationalDatabases.components';
 import { RenderProps } from '../components/topics/RenderProps.components';
+import { RequestResponseLifeCycle } from '../components/topics/RequestResponseLifeCycle.components';
+import { RESTvsGraphQL } from '../components/topics/RESTvsGraphQL.components';
 import { RESTvsSOAP } from '../components/topics/RESTvsSOAP.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
 import { SetStateWithNewObject } from '../components/topics/SetStateWithNewObject.components';
@@ -182,7 +187,12 @@ const Home = () => {
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
+            <HTTPProtocol />
+            <ProtocolsList />
+            <API />
+            <RequestResponseLifeCycle />
             <RESTvsSOAP />
+            <RESTvsGraphQL />
             <FaaSVSPaaS />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
