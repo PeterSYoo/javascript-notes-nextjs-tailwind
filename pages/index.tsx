@@ -52,6 +52,8 @@ import { Minification } from '../components/topics/Minification.components';
 import { Mounting } from '../components/topics/Mounting.components';
 import { NoSQL } from '../components/topics/NoSQL.components';
 import { OopProgramming } from '../components/topics/OopProgramming.components';
+import { OSIModel } from '../components/topics/OSIModel.components';
+import { OSIvsTCPIP } from '../components/topics/OSIvsTCPIP.components';
 import { Parsing } from '../components/topics/Parsing.components';
 import { Promises } from '../components/topics/Promises.components';
 import { ProtocolsList } from '../components/topics/ProtocolsList.components';
@@ -74,6 +76,7 @@ import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SpreadOperator } from '../components/topics/SpreadOperator.components';
 import { SQL } from '../components/topics/SQL.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
+import { TCPIPModel } from '../components/topics/TCPIPModel.components';
 import { Then } from '../components/topics/Then.components';
 import { Transpiling } from '../components/topics/Transpiling.components';
 import { Unmounting } from '../components/topics/Unmounting.components';
@@ -187,8 +190,14 @@ const Home = () => {
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
-            <HTTPProtocol />
             <ProtocolsList />
+            <OSIvsTCPIP />
+            <OSIModel />
+            <TCPIPModel />
+            <HTTPProtocol />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
             <API />
             <RequestResponseLifeCycle />
             <RESTvsSOAP />
