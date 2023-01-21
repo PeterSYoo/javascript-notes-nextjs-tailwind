@@ -100,6 +100,15 @@ export const OSIModelMD = () => {
         and below it, but not with layers that are more than one level away.
         This modular design allows for flexibility and ease of troubleshooting.
       </p>
+      <div className="flex justify-center w-full mt-5">
+        <iframe
+          height="315"
+          src="https://www.youtube.com/embed/oVVlMqsLdro"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          className="max-w-[560px] w-full"
+        ></iframe>
+      </div>
     </>
   );
 };

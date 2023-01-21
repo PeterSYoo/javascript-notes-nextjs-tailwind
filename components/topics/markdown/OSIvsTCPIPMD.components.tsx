@@ -10,6 +10,21 @@ export const OSIvsTCPIPMD = () => {
         reference models used to describe how communication networks work.
       </p>
       <p>
+        The OSI model is a conceptual model that describes the different layers
+        of functionality that are required for communication in a networked
+        system. It is not a set of protocols or a standard for how networks
+        should be built, but rather a framework for understanding and discussing
+        different components and processes involved in networking.
+      </p>
+      <p>
+        On the other hand, the TCP/IP model is a set of protocols that is used
+        to connect devices on the internet and most modern networks. It provides
+        the foundation for how communication is accomplished on these networks,
+        and it is the standard protocol suite used on the internet. It is not
+        just a concept, but an actual set of protocols and standards that are
+        implemented in practice.
+      </p>
+      <p>
         The OSI model is a seven-layer model that describes how data is
         transmitted between different devices on a network. Each layer of the
         OSI model has a specific function, such as error-checking or network

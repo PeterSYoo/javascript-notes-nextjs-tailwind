@@ -75,6 +75,15 @@ export const TCPIPModelMD = () => {
         the others. This modular design allows for flexibility, scalability, and
         ease of troubleshooting.
       </p>
+      <div className="flex justify-center w-full mt-5">
+        <iframe
+          height="315"
+          src="https://www.youtube.com/embed/OTwp3xtd4dg"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          className="max-w-[560px] w-full"
+        ></iframe>
+      </div>
     </>
   );
 };
