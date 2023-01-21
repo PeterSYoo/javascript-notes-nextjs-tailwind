@@ -5,6 +5,7 @@ import { BlockingVSNonBlocking } from '../components/topics/BlockingVSNonBlockin
 import { Bundling } from '../components/topics/Bundling.components';
 import { CallbackFunctions } from '../components/topics/CallbackFunctions.components';
 import { CallStack } from '../components/topics/CallStack.components';
+import { ClientServerArchitecture } from '../components/topics/ClientServerArchitecture.components';
 import { CompilationProcess } from '../components/topics/CompilationProcess.components';
 import { ComponentRenderLifeCycle } from '../components/topics/ComponentRenderLifeCycle.components';
 import { ControlledVSUncontrolledComponents } from '../components/topics/ControlledVSUncontrolledComponents.components';
@@ -18,6 +19,7 @@ import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramm
 import { DOM } from '../components/topics/DOM.components';
 import { DOMNodesToHTML } from '../components/topics/DOMNodesToHTML.components';
 import { DOMNodesToHTMLSSRvsCSR } from '../components/topics/DOMNodesToHTMLSSRvsCSR.components';
+import { EventDrivenArchitecture } from '../components/topics/EventDrivenArchitecture.components';
 import { EventDrivenProgramming } from '../components/topics/EventDrivenProgramming.components';
 import { EventLoop } from '../components/topics/EventLoop.components';
 import { Events } from '../components/topics/Events.components';
@@ -48,13 +50,16 @@ import { JSXElementToDomNode } from '../components/topics/JSXElementToDomNode.co
 import { Keys } from '../components/topics/Keys.components';
 import { LocalLexicalEnvironment } from '../components/topics/LocalLexicalEnvironment.components';
 import { MetaData } from '../components/topics/MetaData.components';
+import { MicroservicesArchitecture } from '../components/topics/MicroservicesArchitecture.components';
 import { Minification } from '../components/topics/Minification.components';
+import { MonolithicArchitecture } from '../components/topics/MonolithicArchitecture.components';
 import { Mounting } from '../components/topics/Mounting.components';
 import { NoSQL } from '../components/topics/NoSQL.components';
 import { OopProgramming } from '../components/topics/OopProgramming.components';
 import { OSIModel } from '../components/topics/OSIModel.components';
 import { OSIvsTCPIP } from '../components/topics/OSIvsTCPIP.components';
 import { Parsing } from '../components/topics/Parsing.components';
+import { PeerToPeerArchitecture } from '../components/topics/PeerToPeerArchitecture.components';
 import { Promises } from '../components/topics/Promises.components';
 import { ProtocolsList } from '../components/topics/ProtocolsList.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
@@ -68,6 +73,7 @@ import { RequestResponseLifeCycle } from '../components/topics/RequestResponseLi
 import { RESTvsGraphQL } from '../components/topics/RESTvsGraphQL.components';
 import { RESTvsSOAP } from '../components/topics/RESTvsSOAP.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
+import { ServiceOrientedArchitecture } from '../components/topics/ServiceOrientedArchitecture.components';
 import { SetStateWithNewObject } from '../components/topics/SetStateWithNewObject.components';
 import { ShouldYouMutateState } from '../components/topics/ShouldYouMutateState.components';
 import { SideEffects } from '../components/topics/SideEffects.components';
@@ -76,6 +82,7 @@ import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SpreadOperator } from '../components/topics/SpreadOperator.components';
 import { SQL } from '../components/topics/SQL.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
+import { SystemDesign } from '../components/topics/SystemDesign.components';
 import { TCPIPModel } from '../components/topics/TCPIPModel.components';
 import { Then } from '../components/topics/Then.components';
 import { Transpiling } from '../components/topics/Transpiling.components';
@@ -104,6 +111,26 @@ const Home = () => {
     <>
       <div className="">
         <div className="flex flex-col max-w-[1024px] w-full mx-auto px-10 gap-5">
+          <div className="flex flex-col">
+            <ProtocolsList />
+            <OSIvsTCPIP />
+            <OSIModel />
+            <TCPIPModel />
+            <HTTPProtocol />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
+            <SystemDesign />
+            <div className="ml-9">
+              <MonolithicArchitecture />
+              <MicroservicesArchitecture />
+              <ServiceOrientedArchitecture />
+              <EventDrivenArchitecture />
+              <ClientServerArchitecture />
+              <PeerToPeerArchitecture />
+            </div>
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
             <CompilationProcess />
             <div className="ml-9">
@@ -157,6 +184,10 @@ const Home = () => {
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
+            <SpreadOperator />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
             <Viewport />
             <HTML />
             <HTMLIsNotConsideredAProgrammingLanguage />
@@ -177,32 +208,6 @@ const Home = () => {
             <Grid />
             <CSSUnitsOfMeasurements />
             <CSSSelectorsAndTheirSpecificity />
-          </div>
-          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
-          <div className="flex flex-col">
-            <SpreadOperator />
-          </div>
-          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
-          <div className="flex flex-col">
-            <SQL />
-            <NoSQL />
-            <RelationalVSNonRelationalDatabases />
-          </div>
-          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
-          <div className="flex flex-col">
-            <ProtocolsList />
-            <OSIvsTCPIP />
-            <OSIModel />
-            <TCPIPModel />
-            <HTTPProtocol />
-          </div>
-          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
-          <div className="flex flex-col">
-            <API />
-            <RequestResponseLifeCycle />
-            <RESTvsSOAP />
-            <RESTvsGraphQL />
-            <FaaSVSPaaS />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
@@ -248,6 +253,20 @@ const Home = () => {
             <WhatIsACleanUpFunction />
             <ReactChildrenMap />
             <ReactCloneElement />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
+            <API />
+            <RequestResponseLifeCycle />
+            <RESTvsSOAP />
+            <RESTvsGraphQL />
+            <FaaSVSPaaS />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
+          <div className="flex flex-col">
+            <SQL />
+            <NoSQL />
+            <RelationalVSNonRelationalDatabases />
           </div>
         </div>
       </div>
