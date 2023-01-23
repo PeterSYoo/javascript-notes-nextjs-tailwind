@@ -15,6 +15,7 @@ import { CSSIsNotConsideredAProgrammingLanguage } from '../components/topics/CSS
 import { CSSSelectorsAndTheirSpecificity } from '../components/topics/CSSSelectorsAndTheirSpecificity.components';
 import { CSSUnitsOfMeasurements } from '../components/topics/CSSUnitsOfMeasurements.components';
 import { CustomHooks } from '../components/topics/CustomHooks.components';
+import { DatabaseRelationships } from '../components/topics/DatabaseRelationships.components';
 import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
 import { DOM } from '../components/topics/DOM.components';
 import { DOMNodesToHTML } from '../components/topics/DOMNodesToHTML.components';
@@ -267,6 +268,7 @@ const Home = () => {
             <SQL />
             <NoSQL />
             <RelationalVSNonRelationalDatabases />
+            <DatabaseRelationships />
           </div>
         </div>
       </div>
