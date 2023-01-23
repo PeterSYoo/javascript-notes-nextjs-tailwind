@@ -56,6 +56,7 @@ import { Minification } from '../components/topics/Minification.components';
 import { MonolithicArchitecture } from '../components/topics/MonolithicArchitecture.components';
 import { Mounting } from '../components/topics/Mounting.components';
 import { NoSQL } from '../components/topics/NoSQL.components';
+import { NoSQLDatabaseRelationships } from '../components/topics/NoSQLDatabaseRelationships.components';
 import { OopProgramming } from '../components/topics/OopProgramming.components';
 import { OSIModel } from '../components/topics/OSIModel.components';
 import { OSIvsTCPIP } from '../components/topics/OSIvsTCPIP.components';
@@ -272,6 +273,7 @@ const Home = () => {
             <DatabaseRelationships />
             <div className="ml-9">
               <SQLDatabaseRelationships />
+              <NoSQLDatabaseRelationships />
             </div>
           </div>
         </div>
