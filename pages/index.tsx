@@ -82,6 +82,7 @@ import { SideEffectsCallStack } from '../components/topics/SideEffectsCallStack.
 import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SpreadOperator } from '../components/topics/SpreadOperator.components';
 import { SQL } from '../components/topics/SQL.components';
+import { SQLDatabaseRelationships } from '../components/topics/SQLDatabaseRelationships.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
 import { SystemDesign } from '../components/topics/SystemDesign.components';
 import { TCPIPModel } from '../components/topics/TCPIPModel.components';
@@ -269,6 +270,9 @@ const Home = () => {
             <NoSQL />
             <RelationalVSNonRelationalDatabases />
             <DatabaseRelationships />
+            <div className="ml-9">
+              <SQLDatabaseRelationships />
+            </div>
           </div>
         </div>
       </div>
