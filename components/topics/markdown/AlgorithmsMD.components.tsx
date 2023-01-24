@@ -5,8 +5,10 @@ export const AlgorithmsMD = () => {
   return (
     <>
       <p className="italic font-serif text-[#2b2b2b]">
-        An algorithm is a set of instructions for completing a specific task or
-        solving a specific problem.
+        Algorithms in data structures and algorithms are sets of instructions
+        for manipulating and analyzing data structures, such as sorting,
+        searching, traversing, and balancing, to solve specific problems and
+        improve the performance of a program.
       </p>
       <p>
         Data structures and algorithms are closely related, as the algorithms
@@ -76,9 +78,10 @@ export const AlgorithmsMD = () => {
         <li>
           Tree algorithms:
           <ul className="list-disc ml-5">
-            <li></li>
-            In-order traversal, which visits the left subtree, the root, and
-            then the right subtree of a binary tree.
+            <li>
+              In-order traversal, which visits the left subtree, the root, and
+              then the right subtree of a binary tree.
+            </li>
             <li>
               Pre-order traversal, which visits the root, the left subtree, and
               then the right subtree of a binary tree.
