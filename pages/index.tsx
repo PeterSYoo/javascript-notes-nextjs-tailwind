@@ -16,6 +16,7 @@ import { CSSSelectorsAndTheirSpecificity } from '../components/topics/CSSSelecto
 import { CSSUnitsOfMeasurements } from '../components/topics/CSSUnitsOfMeasurements.components';
 import { CustomHooks } from '../components/topics/CustomHooks.components';
 import { DatabaseRelationships } from '../components/topics/DatabaseRelationships.components';
+import { DataStructures } from '../components/topics/DataStructures.components';
 import { DeclarativeProgramming } from '../components/topics/DeclarativeProgramming.components';
 import { DOM } from '../components/topics/DOM.components';
 import { DOMNodesToHTML } from '../components/topics/DOMNodesToHTML.components';
@@ -114,6 +115,10 @@ const Home = () => {
     <>
       <div className="">
         <div className="flex flex-col max-w-[1024px] w-full mx-auto px-10 gap-5">
+          <div className="flex flex-col">
+            <DataStructures />
+          </div>
+          <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
             <ProtocolsList />
             <OSIvsTCPIP />
