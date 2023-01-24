@@ -1,3 +1,4 @@
+import { Algorithms } from '../components/topics/Algorithms.components';
 import { API } from '../components/topics/API.components';
 import { AreBrowserApisRunningJavascript } from '../components/topics/AreBrowserApisRunningJavascript.components';
 import { AsyncAwait } from '../components/topics/AsyncAwait.components';
@@ -117,6 +118,7 @@ const Home = () => {
         <div className="flex flex-col max-w-[1024px] w-full mx-auto px-10 gap-5">
           <div className="flex flex-col">
             <DataStructures />
+            <Algorithms />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
