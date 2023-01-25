@@ -39,6 +39,7 @@ import { HigherOrderFunctions } from '../components/topics/HigherOrderFunctions.
 import { Hoisting } from '../components/topics/Hoisting.components';
 import { HookRules } from '../components/topics/HookRules.components';
 import { Hooks } from '../components/topics/Hooks.components';
+import { HowAreRestAPIsStateless } from '../components/topics/HowAreRestAPIsStateless.components';
 import { HowDoBrowserEnginesHandleExecution } from '../components/topics/HowDoBrowserEnginesHandleExecution.components';
 import { HTML } from '../components/topics/HTML.components';
 import { HTMLFormActionsAndMethods } from '../components/topics/HTMLFormActionsAndMethods.components';
@@ -273,6 +274,7 @@ const Home = () => {
             <RESTvsSOAP />
             <RESTvsGraphQL />
             <FaaSVSPaaS />
+            <HowAreRestAPIsStateless />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
