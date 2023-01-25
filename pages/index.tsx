@@ -86,6 +86,7 @@ import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SpreadOperator } from '../components/topics/SpreadOperator.components';
 import { SQL } from '../components/topics/SQL.components';
 import { SQLDatabaseRelationships } from '../components/topics/SQLDatabaseRelationships.components';
+import { StatefulVSStateless } from '../components/topics/StatefulVSStateless.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
 import { SystemDesign } from '../components/topics/SystemDesign.components';
 import { TCPIPModel } from '../components/topics/TCPIPModel.components';
@@ -159,6 +160,7 @@ const Home = () => {
             <SynchronousVSAsynchronous />
             <EventLoop />
             <AreBrowserApisRunningJavascript />
+            <StatefulVSStateless />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
