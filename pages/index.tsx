@@ -2,6 +2,7 @@ import { Algorithms } from '../components/topics/Algorithms.components';
 import { API } from '../components/topics/API.components';
 import { AreBrowserApisRunningJavascript } from '../components/topics/AreBrowserApisRunningJavascript.components';
 import { AsyncAwait } from '../components/topics/AsyncAwait.components';
+import { BestPracticeURIRESTfulServices } from '../components/topics/BestPracticesURIRESTfulService.components';
 import { BlockingVSNonBlocking } from '../components/topics/BlockingVSNonBlocking.components';
 import { Bundling } from '../components/topics/Bundling.components';
 import { CallbackFunctions } from '../components/topics/CallbackFunctions.components';
@@ -68,6 +69,7 @@ import { OSIvsTCPIP } from '../components/topics/OSIvsTCPIP.components';
 import { Parsing } from '../components/topics/Parsing.components';
 import { PeerToPeerArchitecture } from '../components/topics/PeerToPeerArchitecture.components';
 import { Promises } from '../components/topics/Promises.components';
+import { ProsConsREST } from '../components/topics/ProsConsREST.components';
 import { ProtocolsList } from '../components/topics/ProtocolsList.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
 import { PureVSImpureFunction } from '../components/topics/PureVSImpureFunction.components';
@@ -77,6 +79,7 @@ import { ReactCloneElement } from '../components/topics/ReactCloneElement.compon
 import { RelationalVSNonRelationalDatabases } from '../components/topics/RelationalVSNonRelationalDatabases.components';
 import { RenderProps } from '../components/topics/RenderProps.components';
 import { RequestResponseLifeCycle } from '../components/topics/RequestResponseLifeCycle.components';
+import { RESTvsAJAX } from '../components/topics/RESTvsAJAX.components';
 import { RESTvsGraphQL } from '../components/topics/RESTvsGraphQL.components';
 import { RESTvsSOAP } from '../components/topics/RESTvsSOAP.components';
 import { ScopeChain } from '../components/topics/ScopeChain.components';
@@ -276,11 +279,14 @@ const Home = () => {
             <RequestResponseLifeCycle />
             <RESTvsSOAP />
             <RESTvsGraphQL />
+            <RESTvsAJAX />
             <FaaSVSPaaS />
             <HowAreRestAPIsStateless />
             <ExplainHTTPMethods />
             <ExplainHTTPCodes />
             <WhatIsURI />
+            <BestPracticeURIRESTfulServices />
+            <ProsConsREST />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
