@@ -37,6 +37,7 @@ import { FormValidations } from '../components/topics/FormValidations.components
 import { FunctionalProgramming } from '../components/topics/FunctionalProgramming.components';
 import { GlobalExecutionContext } from '../components/topics/GlobalExecutionContext.components';
 import { GlobalLexicalEnvironment } from '../components/topics/GlobalLexicalEnvironment.components';
+import { Graph } from '../components/topics/Graph.components';
 import { Grid } from '../components/topics/Grid.components';
 import { HigherOrderComponents } from '../components/topics/HigherOrderComponent.components';
 import { HigherOrderFunctions } from '../components/topics/HigherOrderFunctions.components';
@@ -137,6 +138,7 @@ const Home = () => {
               <Stack />
               <Queue />
               <Tree />
+              <Graph />
             </div>
             <Algorithms />
           </div>
