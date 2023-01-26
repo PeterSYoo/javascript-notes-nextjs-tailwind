@@ -1,6 +1,7 @@
 import { Algorithms } from '../components/topics/Algorithms.components';
 import { API } from '../components/topics/API.components';
 import { AreBrowserApisRunningJavascript } from '../components/topics/AreBrowserApisRunningJavascript.components';
+import { Arrays } from '../components/topics/Arrays.components';
 import { AsyncAwait } from '../components/topics/AsyncAwait.components';
 import { BestPracticeURIRESTfulServices } from '../components/topics/BestPracticesURIRESTfulService.components';
 import { BlockingVSNonBlocking } from '../components/topics/BlockingVSNonBlocking.components';
@@ -55,6 +56,7 @@ import { Inheritance } from '../components/topics/Inheritance.components';
 import { Jsx } from '../components/topics/Jsx.components';
 import { JSXElementToDomNode } from '../components/topics/JSXElementToDomNode.components';
 import { Keys } from '../components/topics/Keys.components';
+import { LinkedLists } from '../components/topics/LinkedLists.components';
 import { LocalLexicalEnvironment } from '../components/topics/LocalLexicalEnvironment.components';
 import { MetaData } from '../components/topics/MetaData.components';
 import { MicroservicesArchitecture } from '../components/topics/MicroservicesArchitecture.components';
@@ -73,6 +75,7 @@ import { ProsConsREST } from '../components/topics/ProsConsREST.components';
 import { ProtocolsList } from '../components/topics/ProtocolsList.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
 import { PureVSImpureFunction } from '../components/topics/PureVSImpureFunction.components';
+import { Queue } from '../components/topics/Queue.components';
 import { React } from '../components/topics/React.components';
 import { ReactChildrenMap } from '../components/topics/ReactChildren.components';
 import { ReactCloneElement } from '../components/topics/ReactCloneElement.components';
@@ -92,6 +95,7 @@ import { SingleThreaded } from '../components/topics/SingleThreaded.components';
 import { SpreadOperator } from '../components/topics/SpreadOperator.components';
 import { SQL } from '../components/topics/SQL.components';
 import { SQLDatabaseRelationships } from '../components/topics/SQLDatabaseRelationships.components';
+import { Stack } from '../components/topics/Stack.components';
 import { StatefulVSStateless } from '../components/topics/StatefulVSStateless.components';
 import { SynchronousVSAsynchronous } from '../components/topics/SynchronousVSAsynchronous.components';
 import { SystemDesign } from '../components/topics/SystemDesign.components';
@@ -126,6 +130,12 @@ const Home = () => {
         <div className="flex flex-col max-w-[1024px] w-full mx-auto px-10 gap-5">
           <div className="flex flex-col">
             <DataStructures />
+            <div className="ml-9">
+              <Arrays />
+              <LinkedLists />
+              <Stack />
+              <Queue />
+            </div>
             <Algorithms />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
