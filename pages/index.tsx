@@ -112,6 +112,7 @@ import { VirtualDOM } from '../components/topics/VirtualDOM.components';
 import { WhatCausesRerenders } from '../components/topics/WhatCausesRerenders.components';
 import { WhatHappensInAReactApp } from '../components/topics/WhatHappensInAReactApp.components';
 import { WhatIsACleanUpFunction } from '../components/topics/WhatIsACleanupFunctionUseEffect.components';
+import { WhatIsURI } from '../components/topics/WhatIsURI.components';
 import { WhenToChooseUseReducerVSUseState } from '../components/topics/WhenToChooseUseReducerUseState.components';
 import { WorkingWithComplexDataUseState } from '../components/topics/WorkingWithComplexDataUseState.components';
 
@@ -279,6 +280,7 @@ const Home = () => {
             <HowAreRestAPIsStateless />
             <ExplainHTTPMethods />
             <ExplainHTTPCodes />
+            <WhatIsURI />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
