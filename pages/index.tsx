@@ -27,6 +27,7 @@ import { EventDrivenProgramming } from '../components/topics/EventDrivenProgramm
 import { EventLoop } from '../components/topics/EventLoop.components';
 import { Events } from '../components/topics/Events.components';
 import { Executing } from '../components/topics/Executing.components';
+import { ExplainHTTPCodes } from '../components/topics/ExplainHTTPCodes.components';
 import { ExplainHTTPMethods } from '../components/topics/ExplainHTTPMethods.components';
 import { FaaSVSPaaS } from '../components/topics/FaaSVSPaaS.components';
 import { Flexbox } from '../components/topics/Flexbox.components';
@@ -277,6 +278,7 @@ const Home = () => {
             <FaaSVSPaaS />
             <HowAreRestAPIsStateless />
             <ExplainHTTPMethods />
+            <ExplainHTTPCodes />
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
