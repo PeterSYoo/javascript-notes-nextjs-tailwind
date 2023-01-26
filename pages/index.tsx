@@ -102,6 +102,7 @@ import { SystemDesign } from '../components/topics/SystemDesign.components';
 import { TCPIPModel } from '../components/topics/TCPIPModel.components';
 import { Then } from '../components/topics/Then.components';
 import { Transpiling } from '../components/topics/Transpiling.components';
+import { Tree } from '../components/topics/Tree.components';
 import { Unmounting } from '../components/topics/Unmounting.components';
 import { Updating } from '../components/topics/Updating.components';
 import { UseCallback } from '../components/topics/UseCallback.components';
@@ -135,6 +136,7 @@ const Home = () => {
               <LinkedLists />
               <Stack />
               <Queue />
+              <Tree />
             </div>
             <Algorithms />
           </div>
