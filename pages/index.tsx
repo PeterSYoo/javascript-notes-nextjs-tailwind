@@ -39,6 +39,8 @@ import { GlobalExecutionContext } from '../components/topics/GlobalExecutionCont
 import { GlobalLexicalEnvironment } from '../components/topics/GlobalLexicalEnvironment.components';
 import { Graph } from '../components/topics/Graph.components';
 import { Grid } from '../components/topics/Grid.components';
+import { HashTable } from '../components/topics/HashTable.components';
+import { Heap } from '../components/topics/Heap.components';
 import { HigherOrderComponents } from '../components/topics/HigherOrderComponent.components';
 import { HigherOrderFunctions } from '../components/topics/HigherOrderFunctions.components';
 import { Hoisting } from '../components/topics/Hoisting.components';
@@ -139,6 +141,8 @@ const Home = () => {
               <Queue />
               <Tree />
               <Graph />
+              <HashTable />
+              <Heap />
             </div>
             <Algorithms />
           </div>
