@@ -5,6 +5,7 @@ import { Arrays } from '../components/topics/Arrays.components';
 import { AsyncAwait } from '../components/topics/AsyncAwait.components';
 import { BestPracticeURIRESTfulServices } from '../components/topics/BestPracticesURIRESTfulService.components';
 import { BlockingVSNonBlocking } from '../components/topics/BlockingVSNonBlocking.components';
+import { BloomFilter } from '../components/topics/BloomFilter.components';
 import { Bundling } from '../components/topics/Bundling.components';
 import { CallbackFunctions } from '../components/topics/CallbackFunctions.components';
 import { CallStack } from '../components/topics/CallStack.components';
@@ -106,6 +107,7 @@ import { TCPIPModel } from '../components/topics/TCPIPModel.components';
 import { Then } from '../components/topics/Then.components';
 import { Transpiling } from '../components/topics/Transpiling.components';
 import { Tree } from '../components/topics/Tree.components';
+import { Trie } from '../components/topics/Trie.components';
 import { Unmounting } from '../components/topics/Unmounting.components';
 import { Updating } from '../components/topics/Updating.components';
 import { UseCallback } from '../components/topics/UseCallback.components';
@@ -143,6 +145,8 @@ const Home = () => {
               <Graph />
               <HashTable />
               <Heap />
+              <Trie />
+              <BloomFilter />
             </div>
             <Algorithms />
           </div>
