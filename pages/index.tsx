@@ -81,6 +81,7 @@ import { ProtocolsList } from '../components/topics/ProtocolsList.components';
 import { Prototypes } from '../components/topics/Prototypes.components';
 import { PureVSImpureFunction } from '../components/topics/PureVSImpureFunction.components';
 import { Queue } from '../components/topics/Queue.components';
+import { Quicksort } from '../components/topics/Quicksort.components';
 import { React } from '../components/topics/React.components';
 import { ReactChildrenMap } from '../components/topics/ReactChildren.components';
 import { ReactCloneElement } from '../components/topics/ReactCloneElement.components';
@@ -154,6 +155,7 @@ const Home = () => {
               <li>
                 <p className="ml-2">Sorting Algorithms:</p>
                 <BubbleSort />
+                <Quicksort />
               </li>
             </ul>
           </div>
