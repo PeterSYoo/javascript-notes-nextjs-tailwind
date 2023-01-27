@@ -6,6 +6,7 @@ import { AsyncAwait } from '../components/topics/AsyncAwait.components';
 import { BestPracticeURIRESTfulServices } from '../components/topics/BestPracticesURIRESTfulService.components';
 import { BlockingVSNonBlocking } from '../components/topics/BlockingVSNonBlocking.components';
 import { BloomFilter } from '../components/topics/BloomFilter.components';
+import { BubbleSort } from '../components/topics/BubbleSort.components';
 import { Bundling } from '../components/topics/Bundling.components';
 import { CallbackFunctions } from '../components/topics/CallbackFunctions.components';
 import { CallStack } from '../components/topics/CallStack.components';
@@ -149,6 +150,12 @@ const Home = () => {
               <BloomFilter />
             </div>
             <Algorithms />
+            <ul className="list-disc text-sm ml-9">
+              <li>
+                <p className="ml-2">Sorting Algorithms:</p>
+                <BubbleSort />
+              </li>
+            </ul>
           </div>
           <div className="border-b border-[#a6a7aa] max-w-[950px] w-full mx-auto"></div>
           <div className="flex flex-col">
